@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
@@ -12,26 +10,19 @@ class ContinentsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        title: Text(
           'GeoKnow',
           style: TextStyle(
-            color: Colors.white,
+            color: Theme.of(context).primaryColor,
             fontWeight: FontWeight.w900,
-            fontSize: 30.0,
+            fontSize: 50.0,
           ),
         ),
-        centerTitle: true,
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.transparent,
       ),
-      body: Container(
-        // padding: const EdgeInsets.all(16.0),
+      body: Padding(
+        padding: const EdgeInsets.only(top: 16.0),
         child: ListView.builder(
-          // gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-          //   maxCrossAxisExtent: 300,
-          //   crossAxisSpacing: 16.0,
-          //   mainAxisSpacing: 16.0,
-          //   childAspectRatio: 16 / 9
-          // ),
           itemCount: Continent.values.length,
           itemBuilder: (BuildContext context, int index) {
             final Continent continent = Continent.values[index];
@@ -69,12 +60,6 @@ class ContinentsScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // Image.asset(
-                    //   continent.asset,
-                    //   width: 100,
-                    //   height: 100,
-                    //   color: const Color(0xFF86a298),
-                    // ),
                     Align(
                       alignment: Alignment.centerRight,
                       child: Stack(
