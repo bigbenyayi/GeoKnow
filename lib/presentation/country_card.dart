@@ -1,8 +1,9 @@
 import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:geo_know/model/country.dart';
+import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/screen/country_screen.dart';
+import 'package:geo_know/values/countries.dart';
 
 class CountryCard extends StatelessWidget {
   final Country _country;
@@ -16,14 +17,17 @@ class CountryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute<void>(
-            builder: (BuildContext context) {
-              return CountryScreen(country: _country);
-            },
-          ),
-        );
+        final List<FlashcardContent>? flashcardContent = Countries.flashcardContent[_country.isoCode];
+        if (flashcardContent != null) {
+          Navigator.push(
+            context,
+            MaterialPageRoute<void>(
+              builder: (BuildContext context) {
+                return CountryScreen(country: _country);
+              },
+            ),
+          );
+        }
       },
       child: Container(
         padding: const EdgeInsets.all(12.0),

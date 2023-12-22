@@ -3,27 +3,43 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:geo_know/model/country.dart';
+import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
+import 'package:geo_know/values/countries.dart';
 
-class CountryScreen extends StatelessWidget {
+class CountryScreen extends StatefulWidget {
   final Country _country;
 
   const CountryScreen({super.key, required Country country}) : _country = country;
 
   @override
+  State<CountryScreen> createState() => _CountryScreenState();
+}
+
+class _CountryScreenState extends State<CountryScreen> {
+  final ValueNotifier<int> _index = ValueNotifier<int>(0);
+
+  @override
   Widget build(BuildContext context) {
+    final List<FlashcardContent> flashcards = Countries.flashcardContent[widget._country.isoCode]!;
     return Scaffold(
-      appBar: CustomAppBar(title: _country.name),
+      appBar: CustomAppBar(title: widget._country.name),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Flexible(
             flex: 6,
             child: CardSwiper(
-              cardsCount: 15,
+              cardsCount: flashcards.length,
               padding: const EdgeInsets.only(top: 64.0),
+              onSwipe: (int oldIndex, int? newIndex, __) {
+                _index.value = newIndex!;
+                return true;
+              },
               cardBuilder: (BuildContext context, int index, int x, int y) {
+                final FlashcardContent flashcard = flashcards[index];
                 return Stack(
                   fit: StackFit.passthrough,
                   alignment: Alignment.center,
@@ -45,7 +61,7 @@ class CountryScreen extends StatelessWidget {
                             sigmaY: 5.0,
                           ),
                           child: SvgPicture.asset(
-                            _country.flag,
+                            widget._country.flag,
                             fit: BoxFit.fitHeight,
                           ),
                         ),
@@ -53,7 +69,7 @@ class CountryScreen extends StatelessWidget {
                     ),
                     Container(
                       height: 500,
-                      padding: const EdgeInsets.all(16.0),
+                      padding: const EdgeInsets.all(8.0),
                       margin: const EdgeInsets.symmetric(horizontal: 32.0),
                       decoration: const BoxDecoration(
                         color: Colors.white,
@@ -61,19 +77,23 @@ class CountryScreen extends StatelessWidget {
                       ),
                       child: Center(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
-                            ClipRRect(
-                              borderRadius: const BorderRadius.all(Radius.circular(16.0)),
-                              child: Image.network(
-                                'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e546fb8e-26d3-4684-9c6d-23d723478b44/ui_remover.png?format=1500w',
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
+                                child: Image.network(
+                                  flashcard.image,
+                                  fit: BoxFit.fitWidth,
+                                ),
                               ),
                             ),
                             Expanded(
                               child: Center(
-                                child: Text(
-                                  'The lines in Kenya are white not like the people' * 7,
-                                  style: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
-                                  textAlign: TextAlign.center,
+                                child: HtmlWidget(
+                                  flashcard.text,
+                                  textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
                                 ),
                               ),
                             ),
@@ -86,25 +106,33 @@ class CountryScreen extends StatelessWidget {
               },
             ),
           ),
-          Flexible(
-            child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 64.0),
-                  child: ClipRRect(
-                    borderRadius: const BorderRadius.all(Radius.circular(16.0)),
-                    child: LinearProgressIndicator(
-                      value: .9,
-                      minHeight: 8.0,
-                      color: Colors.grey.shade400,
-                      backgroundColor: Colors.grey.shade200,
+          ValueListenableBuilder<int>(
+            valueListenable: _index,
+            builder: (BuildContext context, int index, _) {
+              return Flexible(
+                child: Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 64.0),
+                      child: ClipRRect(
+                        borderRadius: const BorderRadius.all(Radius.circular(16.0)),
+                        child: LinearProgressIndicator(
+                          value: (index + 1) / flashcards.length,
+                          minHeight: 8.0,
+                          color: Colors.grey.shade400,
+                          backgroundColor: Colors.grey.shade200,
+                        ),
+                      ),
                     ),
-                  ),
+                    const SizedBox(height: 4.0),
+                    Text(
+                      '${index + 1}/${flashcards.length}',
+                      style: TextStyle(color: Colors.grey.shade400, fontSize: 12.0),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 4.0),
-                Text('3/10', style: TextStyle(color: Colors.grey.shade400, fontSize: 12.0))
-              ],
-            ),
+              );
+            },
           )
         ],
       ),
