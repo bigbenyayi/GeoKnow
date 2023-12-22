@@ -14,4 +14,8 @@ class Country {
   String get asset {
     return 'assets/images/country_outlines/$isoCode.png';
   }
+
+  String get flag {
+    return 'assets/images/flags/$isoCode.svg';
+  }
 }

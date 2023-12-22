@@ -1,5 +1,6 @@
 import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/screen/country_screen.dart';
 
@@ -25,7 +26,7 @@ class CountryCard extends StatelessWidget {
         );
       },
       child: Container(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(12.0),
         decoration: const BoxDecoration(
           color: Colors.white,
           boxShadow: <BoxShadow>[
@@ -37,16 +38,21 @@ class CountryCard extends StatelessWidget {
           children: <Widget>[
             Row(
               children: <Widget>[
-                CircleFlag(_country.isoCode, size: 30.0,),
-                const SizedBox(width: 16.0),
+                CircleFlag(_country.isoCode, size: 30.0),
+                const SizedBox(width: 8.0),
                 Expanded(
-                  child: Text(
-                    _country.name,
-                    style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      _country.name,
+                      style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
+                    ),
                   ),
                 ),
               ],
             ),
+            const SizedBox(height: 8.0),
             Expanded(
               child: Center(
                 child: Stack(
@@ -54,14 +60,14 @@ class CountryCard extends StatelessWidget {
                     Image.asset(
                       _country.asset,
                       color: Theme.of(context).primaryColor.withOpacity(.3),
-                      height: 103,
-                      width: 103,
+                      height: 100,
+                      width: 100,
                     ),
                     Image.asset(
                       _country.asset,
                       color: Colors.grey.shade300,
-                      height: 100,
-                      width: 100,
+                      height: 97,
+                      width: 97,
                     ),
                   ],
                 ),

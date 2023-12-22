@@ -22,7 +22,6 @@ class ContinentsScreen extends StatelessWidget {
                 ),
               ),
               scrolledUnderElevation: .0,
-              backgroundColor: Colors.white,
             ),
             ListView.builder(
               itemCount: Continent.values.length,
@@ -46,14 +45,14 @@ class ContinentsScreen extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.all(Radius.circular(32.0)),
-                        boxShadow: [
+                        boxShadow: <BoxShadow>[
                           BoxShadow(color: Colors.black26, blurRadius: 4.0, spreadRadius: .5, offset: Offset(0, 3))
                         ]),
                     padding: const EdgeInsets.all(8.0),
                     margin: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
+                      children: <Widget>[
                         Padding(
                           padding: const EdgeInsets.only(left: 25.0),
                           child: Text(
