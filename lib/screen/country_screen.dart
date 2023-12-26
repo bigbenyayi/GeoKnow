@@ -85,7 +85,7 @@ class _CountryScreenState extends State<CountryScreen> {
                                 padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
                                 child: Image.network(
                                   flashcard.image,
-                                  fit: BoxFit.fitWidth,
+                                  fit: BoxFit.contain,
                                 ),
                               ),
                             ),
