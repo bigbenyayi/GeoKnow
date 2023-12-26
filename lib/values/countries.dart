@@ -36,6 +36,73 @@ class Countries {
             '• round concrete poles with small <b>holes</b>.'
       ),
     ],
+    'bm': const <FlashcardContent>[
+      FlashcardContent(
+        image:
+            'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/7a52d45f-3d61-4c15-8309-4920ae3ed4dd/bm_summary.png?format=1500w',
+        text: 'Red flag with the <b>Union Flag</b> on the left and a <b>shipwreck</b> on the right.<br><br>'
+            'The country domain code is <b>.bm</b>.<br><br>'
+            'Driving on the <b>left</b> side of the road.<br><br>'
+            '100% of the camera coverage is <b>Gen 3.</b>',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3e20eae9-b3a9-44b6-afcc-a5d1c77dfe30/bm_googlecar.png?format=1000w',
+        text: 'Car is <b>black</b> with the entire front sides typically visible.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/9ed0b226-45f5-4930-be12-a69ad6c6d4ea/bm_licenceplate.png?format=1000w',
+        text: 'Licence plates are <b>white</b> and <b>long</b> with <b>black</b> digits.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/468580f1-1093-475e-825e-76dc6af62458/bm_generallook.png?format=1000w',
+        text: 'Dense vegetation with <b>small trees</b> and <b>a lot of bushes</b>.<br><br>',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/75caa4cb-d0db-42bc-aad4-6abbda6ab062/bm_yellowroadline.png?format=1000w',
+        text: 'Most roads have a <b>single solid yellow middle line</b> with no outer road lines.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/15accbe3-00fd-440c-b275-e39056db51e1/bm_zigzaglines.png?format=1000w',
+        text: 'You can sometimes see <b>white zig zag</b> road lines.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/173ab4ba-a027-4ff9-a81a-b94d72044ed2/bm_architecture.png?format=1000w',
+        text: 'Mostly <b>single family houses</b> visible, with <b>pastel colours</b> and <b>white roofs</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a39f968a-cb2b-4826-9e93-7a410a2008c1/bm_palms.png?format=1000w',
+        text: '<b>Palms</b> are very common.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/7a813632-ac34-4255-a61d-b5dc65751e75/bm_bluewater.png?format=1000w',
+        text: 'Always close to the ocean with <b>light blue</b> water.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/15d8fb27-5104-4579-88d4-8f3ddb9920c1/bm_downtownhamilton.png?format=1000w',
+        text: 'Largest town is <b>Hamilton</b>.<br><br>'
+              'Downtown filled with <b>large</b>, densely built <b>multi-floor buildings</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/73cee715-915e-4104-8985-337e08ff0663/bm_northwestpeninsula.png?format=1000w',
+        text: 'The northwestern tip has many large buildings made of <b>unpainted grey brick</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3b48629d-744b-4dd3-bf74-25bf9f3ddda2/bermuda_boat.png?format=1000w',
+        text: 'A <b>boat trekker</b> can be seen on the eastern coast of Bermuda.<br><br>'
+              'It goes around <u>Saint George’s Harbour</u> and past <u>Fort St. Catherine</u> on the northeast tip of the island.',
+      ),
+    ],
   };
   static final List<Country> countries = <Country>[
     const Country(isoCode: 'bw', name: 'Botswana', continent: Continent.africa),
