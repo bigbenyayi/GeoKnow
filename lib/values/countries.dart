@@ -57,7 +57,7 @@ class Countries {
     const Country(isoCode: 'kh', name: 'Cambodia', continent: Continent.asia),
     const Country(isoCode: 'hk', name: 'Hong Kong', continent: Continent.asia),
     const Country(isoCode: 'id', name: 'Indonesia', continent: Continent.asia),
-    const Country(isoCode: 'il', name: 'Israel & the West Bank', continent: Continent.asia),
+    const Country(isoCode: 'il', name: 'Israel', continent: Continent.asia),
     const Country(isoCode: 'jo', name: 'Jordan', continent: Continent.asia),
     const Country(isoCode: 'kg', name: 'Kyrgyzstan', continent: Continent.asia),
     const Country(isoCode: 'la', name: 'Laos', continent: Continent.asia),
