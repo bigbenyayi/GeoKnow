@@ -12,7 +12,7 @@ class Countries {
         text: 'The colours of the flag are <b>blue</b> and <b>red</b>.<br><br>'
             'The country domain code is <b>.kh</b>.<br><br>'
             'Driving on the <b>right</b> side of the road.<br><br>'
-            '80% of the camera coverage is <b>Gen 1.</b>',
+            '80% of the camera coverage is <b>Gen 1</b>.',
       ),
       FlashcardContent(
         image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5877fda9-6bb7-475b-bf8b-79aaa2d8d632/Cambodia+License+Plate.png?format=1500w',
@@ -43,7 +43,7 @@ class Countries {
         text: 'Red flag with the <b>Union Flag</b> on the left and a <b>shipwreck</b> on the right.<br><br>'
             'The country domain code is <b>.bm</b>.<br><br>'
             'Driving on the <b>left</b> side of the road.<br><br>'
-            '100% of the camera coverage is <b>Gen 3.</b>',
+            '100% of the camera coverage is <b>Gen 3</b>.',
       ),
       FlashcardContent(
         image:
@@ -101,6 +101,88 @@ class Countries {
         'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3b48629d-744b-4dd3-bf74-25bf9f3ddda2/bermuda_boat.png?format=1000w',
         text: 'A <b>boat trekker</b> can be seen on the eastern coast of Bermuda.<br><br>'
               'It goes around <u>Saint George’s Harbour</u> and past <u>Fort St. Catherine</u> on the northeast tip of the island.',
+      ),
+    ],'do': const <FlashcardContent>[
+      FlashcardContent(
+        image:
+            'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5e59a2fb-1449-4eeb-b192-9a3e89481b07/Copy+of+Copy+of+Infographic+%281%29.png?format=750w',
+        text: 'Quartered <b>blue-red</b> flag with a <b>central white cross</b> and <b>coat of arms</b>.<br><br>'
+            'The country domain code is <b>.do</b>.<br><br>'
+            'Driving on the <b>right</b> side of the road.<br><br>'
+            '100% of the camera coverage is <b>Gen 3</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/b1816f2e-1236-40ea-a599-f819e7ceb9e0/googlecar.png?format=750w',
+        text: 'Car has two metal bars with <b>thick black stripes</b> and a white hood.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/fcb86376-b68e-4c96-a6fb-f3430f3f8574/Dominican_Republic_License_Plate.png?format=750w',
+        text: 'Licence plates are pale <b>yellow</b> at the top and <b>white</b> at the bottom, with <b>black</b> letters.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/26427300-c1ed-46a7-8201-21cb5324119d/Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Small+Pin+%282%29.png?format=750w',
+        text: 'Mostly <b>square and concrete</b> electricity poles, with a reverse “L” shape at the top.<br><br>'
+              'Poles can sometimes be round or octagonal.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/60412f34-739b-434e-858d-736b278775ac/smoothasphalt.png?format=750w',
+        text: '<b>Smooth asphalt</b> roads, darker than in other countries.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/75caa4cb-d0db-42bc-aad4-6abbda6ab062/bm_yellowroadline.png?format=1000w',
+        text: 'Most roads have a <b>single solid yellow middle line</b> with no outer road lines.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/bfbc55d6-da97-4d34-bf3c-e350dbe64143/pare.png?format=750w',
+        text: 'Stop signs with <b>PARE</b>.<br><br>'
+              'Many signs are attached to <b>yellow signposts</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/b286aeb5-25ae-4b83-b5e4-a5b46faa4d8b/coverage.png?format=750w',
+        text: 'Street View coverage is very limited.<br><br>'
+              'Only the capital <b>Santo Domingo</b> and the Northern city of <b>Santiago de los Caballeros</b> are covered.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/de1105eb-b32d-46e9-9d83-838a71fc9945/Landscape_-_Santiago_de_los_Caballeros_Mountains.png?format=750w',
+        text: 'If you have <b>mountains to the North</b>, you will always be in Santiago de los Caballeros.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/03a43234-868c-4b57-a234-2c75dcafd111/Santiago_de_los_Caballeros_Traffic_Light_Poles.png?format=750w',
+        text: '<b>Yellow traffic light</b> poles are typical for the city of Santiago de los Caballeros.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/94bfcaeb-88ec-4777-a275-93c8159c38a5/Santo_Domingo_Developed.png?format=750w',
+        text: 'As the capital and largest city, Santo Domingo has a <b>more developed downtown area</b>, with tall buildings and wide avenues.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/883e426b-6315-4469-9d65-07164c98c1ac/Santo_Domingo_ADN_Signs.png?format=750w',
+        text: 'Street name signs in Santo Domingo often contain the letters <b>ADN</b>, a reference to the national district.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f5530ad0-c22b-472e-9d60-f387f2a604d0/Santo_Domingo_Striped_Poles.png?format=750w',
+        text: '<b>Black-and-purple</b> pole markings are only found on poles in the Santo Domingo area.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/935c0caf-7ccc-4d57-84dd-fc57cf1deb2b/Landscape_-_Santo_Domingo_Outskirts.png?format=750w',
+        text: '<u>Narrow dirt tracks</u>, <u>whitish dirt</u> and <u>dried green shrubbery and debris</u> next to the road, are found on the outskirts of <b>Santo Domingo</b>.',
+      ),
+      FlashcardContent(
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/408fb7db-49a8-4e21-bb2d-cf1a796d8606/Santo_Domingo_Evening_Coverage.png?format=750w',
+        text: 'There is some <b>late evening coverage</b> in Santo Domingo.',
       ),
     ],
   };
