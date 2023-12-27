@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/screen/country_screen.dart';
+import 'package:geo_know/screen/statesUS_screen.dart';
 import 'package:geo_know/values/countries.dart';
 
 class CountryCard extends StatelessWidget {
@@ -18,12 +19,21 @@ class CountryCard extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         final List<FlashcardContent>? flashcardContent = Countries.flashcardContent[_country.isoCode];
-        if (flashcardContent != null) {
+        if (_country.isoCode == 'us') {
           Navigator.push(
-            context,
-            MaterialPageRoute<void>(
+              context,
+              MaterialPageRoute<void>(
               builder: (BuildContext context) {
-                return CountryScreen(country: _country);
+            return StatesUSScreen(country: _country);
+              },
+            ),
+          );
+        } else if (flashcardContent != null) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (BuildContext context) {
+                        return CountryScreen(country: _country);
               },
             ),
           );
