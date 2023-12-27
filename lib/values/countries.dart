@@ -345,7 +345,6 @@ class Countries {
     const Country(isoCode: 'do', name: 'Dominican Republic', continent: Continent.northAmerica),
     const Country(isoCode: 'gl', name: 'Greenland', continent: Continent.northAmerica),
     const Country(isoCode: 'gt', name: 'Guatemala', continent: Continent.northAmerica),
-    const Country(isoCode: 'pr', name: 'Puerto Rico', continent: Continent.northAmerica),
     const Country(isoCode: 'us', name: 'United States', continent: Continent.northAmerica),
     const Country(isoCode: 'as', name: 'American Samoa', continent: Continent.oceania),
     const Country(isoCode: 'au', name: 'Australia', continent: Continent.oceania),

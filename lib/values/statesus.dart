@@ -7,15 +7,89 @@ class StatesUS {
   static final Map<String, List<FlashcardContent>> flashcardContent = <
       String,
       List<FlashcardContent>>{
-    'us-al': const <FlashcardContent>[
+    'pr': const <FlashcardContent>[
       FlashcardContent(
-        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a2809755-3666-40c6-a708-f7f7db9440dd/summary_cambo.png?format=2500w',
-        text: 'TEST',
+        image:
+        'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/bd9f619d-1bff-4f6c-bfc4-3d826e14993d/pr_summary.png?format=1500w',
+        text: '<b>United States</b> overseas territory.<br><br>'
+            'The country domain code is <b>.pr</b>.<br><br>'
+            'Driving on the <b>right</b> side of the road.<br><br>'
+            '100% of the camera coverage is <b>Gen 3</b>.',
       ),
       FlashcardContent(
-        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5877fda9-6bb7-475b-bf8b-79aaa2d8d632/Cambodia+License+Plate.png?format=1500w',
-        text: 'Licence plates are <b>white</b> with <b>blue</b> letters.<br><br>'
-            'Plates on government vehicles are <b>green</b>.',
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e8aef79b-6945-4946-8f3e-e152fa83831e/pr_googlecar.png?format=1000w',
+        text: 'Google Car with an antenna on the <b>front right</b>.<br><br>'
+            'Small white dot on the tip of the antenna.<br><br>'
+            '(similar in Guam and NMI)',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3e66e842-9f9e-41a4-acb4-16d96b4e357b/pr_areacode.png?format=1000w',
+        text: 'Regional phone code is (<b>787</b>).',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/47bc316f-320e-4907-9088-6f223d1b1442/pr_wal_mart.png?format=1000w',
+        text: 'American store chains are very common.<br><br>'
+              '(uncommon in other latin countries)',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/7a4afc93-34dd-43e7-9d92-3e65fca13141/pr_nofrontplates.png?format=1000w',
+        text: 'Front plates are <b>not mandatory</b>.<br><br>'
+              'Cars without front plates are very common.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/1003aa33-4bac-42ed-8d4a-a7e23289bf3d/pr_highways.png?format=1000w',
+        text: 'A very large part of the coverage in rural Puerto Rico is taken on large <b>divided highways</b>.<br><br>',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a7aa65ce-8807-4bd9-b8aa-74b0e6c90cb8/pr_highway_shields.png?format=1000w',
+        text: 'Here is an example of what <b>highway shields</b> look like.<br><br>'
+              'From top left to bottom right they are: primary highway shields, primary urban highway shields, secondary shields, and tertiary shields.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e0fd74a0-93ec-4d88-99ea-78bc5e9fb731/pr_speed_limit_sign.png?format=1000w',
+        text: 'Speed limit signs are identical in shape and size to mainland US.<br><br>'
+              'Signs use <b>Spanish</b> instead of English.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/9b3a7e5f-ec35-4158-93b0-afd199c438d2/pr_pare.png?format=1000w',
+        text: 'Stop signs say <b>PARE</b>.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/d67ec2d4-b86f-498c-9e77-47f0fb2e3dbe/pr_kmmarker.png?format=1000w',
+        text: 'Kilometre markers are <b>tall</b>, <b>green</b> and with </b>km</b> written at the top, followed by a number written vertically in large text.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/b5a806f3-a8b0-44d1-8b52-af3597fe1882/pr_house.png?format=1000w',
+        text: '<b>Concrete</b> houses with <b>flat rooftops</b>.<br><br>'
+              'Metal gates in front of homes are common, especially in urban areas.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/6e189f5f-70b9-4c4c-ab37-905da8a95f93/pr_coveragemap.png?format=1000w',
+        text: 'Coverage areas within Puerto Rico.<br><br>'
+              'Most of the coverage is centred around the <b>major cities</b> of San Juan, Ponce, and Caguas as well as coastal areas.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/cafc3326-dac2-4d82-ab33-d3f52671273e/pr_drysouth.png?format=1000w',
+        text: 'Southern Puerto Rico can often look distinctly <b>dryer</b> than the rest of the island.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/169571bc-15d5-4549-83a5-2a69610a6dd2/pr_plains.png?format=1000w',
+        text: 'The North and South coasts of Puerto Rico typically feature <b>flat coastal plains</b> or <b>rolling hills</b>.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/2812868e-21fd-4d03-a380-5593cfc233ed/pr_mountains.png?format=1000w',
+        text: 'Most of the <b>mountainous regions</b> of Puerto Rico are located in the middle section of the country.<br><br>'
+              'Most of the coverage in these areas is limited to divided highways.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/0e4ff45d-b611-4d4d-93dd-d0d4adb02a9b/pr_ponce_architecture.png?format=1000w',
+        text: 'The Southern city of Ponce features many buildings in the style of <b>Ponce Creole Architecture</b>, which is a combination of Victorian and Spanish Revival styles.<br><br>'
+              'Buildings are typically made out of wood and masonry.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a5c89cdc-c7d7-4bda-bfed-98187cfec63d/pr_old_town_san_juan.png?format=1000w',
+        text: 'Old Town San Juan has very <b>narrow streets</b>, <b>colourful buildings</b>, and a mix of Gothic, Renaissance, and Baroque architecture. .<br><br>'
+              'Some streets in this area are made of bricks.',
       ),
     ],
     'us-hi': const <FlashcardContent>[
@@ -117,5 +191,7 @@ class StatesUS {
     const StateUS(isoCode: 'us-hi', name: 'Hawaii'),
     const StateUS(isoCode: 'us', name: 'Contiguous US'),
     const StateUS(isoCode: 'vi', name: 'Virgin Islands'),
+    const StateUS(isoCode: 'pr', name: 'Puerto Rico'),
+
   ];
 }
