@@ -116,5 +116,6 @@ class StatesUS {
     const StateUS(isoCode: 'us-al', name: 'Alaska'),
     const StateUS(isoCode: 'us-hi', name: 'Hawaii'),
     const StateUS(isoCode: 'us', name: 'Contiguous US'),
+    const StateUS(isoCode: 'vi', name: 'Virgin Islands'),
   ];
 }
