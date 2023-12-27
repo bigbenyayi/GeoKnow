@@ -38,7 +38,7 @@ class StatesUS {
       ),
       FlashcardContent(
         image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/1003aa33-4bac-42ed-8d4a-a7e23289bf3d/pr_highways.png?format=1000w',
-        text: 'A very large part of the coverage in rural Puerto Rico is taken on large <b>divided highways</b>.<br><br>',
+        text: 'A very large part of the coverage in rural Puerto Rico is taken on large <b>divided highways</b>.',
       ),
       FlashcardContent(
         image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a7aa65ce-8807-4bd9-b8aa-74b0e6c90cb8/pr_highway_shields.png?format=1000w',
@@ -88,19 +88,52 @@ class StatesUS {
       ),
       FlashcardContent(
         image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a5c89cdc-c7d7-4bda-bfed-98187cfec63d/pr_old_town_san_juan.png?format=1000w',
-        text: 'Old Town San Juan has very <b>narrow streets</b>, <b>colourful buildings</b>, and a mix of Gothic, Renaissance, and Baroque architecture. .<br><br>'
+        text: 'Old Town San Juan has very <b>narrow streets</b>, <b>colourful buildings</b>, and a mix of Gothic, Renaissance, and Baroque architecture.<br><br>'
               'Some streets in this area are made of bricks.',
       ),
     ],
-    'us-hi': const <FlashcardContent>[
+    'vi': const <FlashcardContent>[
       FlashcardContent(
-        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/a2809755-3666-40c6-a708-f7f7db9440dd/summary_cambo.png?format=2500w',
-        text: 'TEST',
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/980b3baa-f942-4525-b0fd-191ca8a62687/vi_summary.png?format=1500w',
+        text: '<b>United States</b> overseas territory.<br><br>'
+            'The country domain code is <b>.vi</b>.<br><br>'
+            'Driving on the <b>left</b> side of the road.<br><br>'
+            '100% of the camera coverage is <b>Gen 3</b>.',
       ),
       FlashcardContent(
-        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5877fda9-6bb7-475b-bf8b-79aaa2d8d632/Cambodia+License+Plate.png?format=1500w',
-        text: 'Licence plates are <b>white</b> with <b>blue</b> letters.<br><br>'
-            'Plates on government vehicles are <b>green</b>.',
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/41de08c4-d7c8-4eca-8be1-22efdde7a143/vi_cars.png?format=1000w',
+        text: 'Car coverage with large, visible street view car, which will either be <b>red</b> or <b>white</b>.<br><br>',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3f31b513-519b-4937-91c9-469239114de7/vi_architecture.png?format=1000w',
+        text: 'Unique blend of architecture.<br><br>'
+              'The primary influences are European Renaissance, Spanish Baroque, Rococo and Victorian styles. Facades with large arches are common; as well as central plazas and courtyards.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e3bb4b91-55dd-492d-9fbd-b04179ebae79/vi_southgrid.png?format=1000w',
+        text: 'Primary roads on the Southern US Virgin Island of St. Croix follow a loose <b>grid pattern</b>.<br><br>'
+              'Main roads are angled from WSW to ENE, with intersecting roads angled from NNW to SSE.'
+              '(roads are curvier on the Northern Islands of St. John and St. Thomas)',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e2bdb8e1-ff13-4abb-8e8c-8d97b9648a77/vi_redcar.png?format=1000w',
+        text: 'The red truck with a <b>red cab</b> can only be seen in the southern island of St Croix.<br><br>'
+              'This is the <b>most common</b> car that will be seen as St Croix has the most coverage.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/bbe34538-e6f1-4ef5-bee2-926b02962f46/vi_southwhitecar.png?format=1000w',
+        text: 'A white car <b>without an antenna</b> can also be seen on St Croix, however it will be less common than the red car.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/62fcc0d0-22f9-4dd5-87de-8c45727c8bc4/vi_northcar.png?format=1000w',
+        text: 'A white car <b>with an antenna</b> can only be seen in the northern islands of St Thomas and St John.<br><br>'
+              'The cab is shorter than the other two cars.',
+      ),
+      FlashcardContent(
+        image: 'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/97bcfb0c-c4d4-421c-bb17-8277cbf58657/vi_boats.png?format=1000w',
+        text: 'Two <b>boat trekkers</b> are found on the north coast of St Croix.<br><br>'
+              'The boat cannot be seen, blue waters and hilly islands.'
+              'The area near Buck Island National Park has a <u>pink tint</u> to the camera.',
       ),
     ],
     'us': const <FlashcardContent>[
