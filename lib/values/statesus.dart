@@ -254,7 +254,7 @@ class StatesUS {
       ),
       FlashcardContent(
         image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/ad0c90f9-7f77-4219-ab81-1d7f61932411/ak_alexanderarchipelago.png?format=750w',
-        text: '<u>Towns in the Alexander Archipelago:</u>><br>'
+        text: '<u>Towns in the Alexander Archipelago:</u><br>'
             '<b>Tall mountains</b> with <b>lush green forests</b> can be seen in the background, with the majority of buildings made of wood.<br><br>'
             'Generation 2 coverage is often overcast and misty.',
       ),
@@ -301,6 +301,87 @@ class StatesUS {
         image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f579ce67-ce6f-42a1-8859-90468df17f9e/ak_towntrekkers.png?format=750w',
         text: 'Nome, Unalakleet and Galena are three isolated Alaskan towns which are covered only by trekker.<br><br>'
             'The trekker’s <b>lime green hat</b> or <b>black and white beanie</b> can be seen.',
+      ),
+    ],
+    'us-hi': const <FlashcardContent>[
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/6de9750a-7e4d-45cd-8c8c-44435ea13e43/summary_hawaii.png?format=1500w',
+        text: '<b>United States</b> territory.<br><br>'
+            'The country domain code is <b>.us</b>.<br><br>'
+            'Driving on the <b>right</b> side of the road.<br><br>'
+            '50% of the camera coverage is <b>Gen 3</b>.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3e43212a-8d2a-48cf-8691-21b842c2d05c/hi_plate.png?format=1000w',
+        text: 'Most common plates are <b>white</b> with an <b>arcing rainbow</b> across the centre of the plate..<br><br>'
+              'When blurred, you can sometimes see the outline of the rainbow.<br><br>'
+              'Front plates are required in Hawaii.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3779707b-5bbe-4c00-8ae1-6a0b22870556/I_want_to_visit_Honolulu_.png?format=1000w',
+        text: 'Uses its own language but English is used predominantly.<br><br>'
+              'Most <b>place names</b> are in Hawaiian, so you can spot it on street signs, and other road markers.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/9a3799be-cd6f-4d11-b257-a3933cc23b8a/round.png?format=1000w',
+        text: 'Fair amount of Generation 2 coverage, compared to other US states.<br><br>'
+              'Especially on more rural roads.<br><br>'
+              '<u>NOTE:</u> Generation 2 can be recognized by the lower quality camera, and circular blur above and below the camera.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/4409e081-c95b-44e5-863d-bd3604c62c5b/Why_are_you_reading_this_Look_at_the_beautiful_pictures.png?format=1000w',
+        text: '<b>Lush</b> and <b>tropical</b> vegetation, with a variety of plants and trees.<br><br>'
+              '<u>Wide range of landscapes:</u><br>'
+              'Plenty of <b>ferns</b>, <b>tall grass</b>, or <b>other flowers</b> on the sides of the roads.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/e34ca59b-99ae-4b9c-9e3a-ab2560184d30/Yes_I_know_its_beautiful.png?format=1000w',
+        text: 'Topography is characterised by many <b>sloping volcanoes</b>, <b>rugged cliffs</b>, <b>hills</b>, <b>valleys</b> and <b>craters</b>.<br><br>'
+              'Such distinct topography combined with tropical vegetation is a good way to identify Hawaii.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/84131190-dbfc-4373-8f06-a6f94cea8023/poleband.png?format=1000w',
+        text: 'Thick <b>yellow bands</b> can sometimes be seen on poles.<br><br>'
+              '(3 stripes in California)',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/8ab04729-fc8c-410b-a59a-1af8e4972321/Colombia_right.png?format=1000w',
+        text: 'A <b>stubby antenna</b> can be seen in most Generation 3 coverage.<br><br>'
+              '(not always visible)',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/eef1dd94-eb44-4411-8db0-9de6c952a242/hi_reflector.png?format=1000w',
+        text: '<b>Raised pavement markers</b> in Hawaii will commonly be placed in a specific pattern:<br><br>'
+              'a single reflector, followed by four reflectors put close together and then a single reflector, repeating the pattern.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f57538b5-f7ff-4b65-8b00-3bcbd3d82515/Copy_of_Hawaii_Hint1.png?format=1000w',
+        text: '<b>Generation 2</b> and <b>4</b> coverage can only be found on the islands of Hawaiʻi, Maui and Oʻahu.<br><br>'
+              'The other islands only have <b>Generation 3</b> coverage.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/0429978e-5c5d-41b4-9e6f-0a72949d17c7/Quite_tropical_for_Estonia.png?format=1000w',
+        text: 'Within Hawaii, a distinct <b>green blur</b> can only be seen on the island of <b>Oʻahu</b>.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/619493a5-5e7d-4aeb-a0dc-ca5af17d1435/Copy_of_Copy_of_Hawaii_Hint.png?format=1000w',
+        text: '<b>Rural roads</b> going through forests within a flat landscape are commonly found south of the city of Hilo, on the island of Hawaiʻi.<br><br>',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/31568ebf-5ca7-4f71-b23a-b5ab229a1cf1/Copy_of_Copy_of_Copy_of_Hawaii_Hint.png?format=1000w',
+        text: 'The Lānaʻi island is a niche, yet distinct island.<br><br>'
+              'The plane that dominates most of the island has a unique <b>volcano</b> to the north of the plane.<br><br>'
+              'Tall unique trees dominate most of the city.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/79794079-fbbf-4201-b1fa-bc24269efc94/The_Great_Hawaii_Lattice1.png?format=1000w',
+        text: 'The infamous <b>“Hawaiian lattice”</b> can be recognized by the volcanic soil and rocks that are abundant in the region.<br><br>'
+              'Volcanic vegetation can also be seen lining the roads.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/26fa64c3-d897-4085-b476-7e93a81236f5/Hawaii_Hint.png?format=1000w',
+        text: 'The <b>Red Hill</b> can easily be recognised by this unique barren, red rocky landscape.<br><br>'
+              'Due to the high altitude, clouds are usually visible below you.',
       ),
     ],
   };
