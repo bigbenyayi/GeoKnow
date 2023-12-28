@@ -217,6 +217,92 @@ class StatesUS {
             '(few Chick-Fil-As in the Toronto area)'
     ),
     ],
+    'us-al': const <FlashcardContent>[
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/72affa24-32c0-4d21-b21d-3b39c4e088f0/ak_summary.png?format=750w',
+        text: '<b>United States</b> territory.<br><br>'
+            'The country domain code is <b>.us</b>.<br><br>'
+            'Driving on the <b>right</b> side of the road.<br><br>'
+            '69% of the camera coverage is <b>Gen 3</b>.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/77969b1a-d2bb-45b2-8e8c-71ed6c2feea7/ak_licenceplates.png?format=750w',
+        text: 'Most common plates are <b>all yellow</b>.<br><br>'
+            'Gen 4 coverage can have a plate with a large orange circle in the middle.<br><br>'
+            'Front plates are required in Alaska.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f46b7b3b-6de7-4c3c-9f87-fd92a80e942a/ak_thintrees.png?format=750w',
+        text: '<b>Thinner</b> trees with <b>less broadleaf species</b> than other states.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/decca748-6704-46a5-9249-04b80ce7b2f5/ak_mountains.png?format=750w',
+        text: 'A lot of coverage with visible <b>tall</b>, <b>snow covered mountains</b>.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/55a88b6a-44d8-4763-82d1-d346a8bb49c9/ak_gen2.png?format=750w',
+        text: 'A fair amount of <b>Generation 2</b> coverage.<br><br>'
+              '(less common in other states)',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/9326df20-762b-4f0e-b89b-9a9edc77d0bb/ak_cameragens.png?format=750w',
+        text: 'A map of covered areas in Alaska, separated into generations.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/2b00771d-4104-4f93-8adc-8608005adab4/ak_gen4.png?format=750w',
+        text: '<b>Generation 4</b> coverage in Alaska is concentrated around the city of <b>Anchorage</b>.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/ad0c90f9-7f77-4219-ab81-1d7f61932411/ak_alexanderarchipelago.png?format=750w',
+        text: '<u>Towns in the Alexander Archipelago:</u>><br>'
+            '<b>Tall mountains</b> with <b>lush green forests</b> can be seen in the background, with the majority of buildings made of wood.<br><br>'
+            'Generation 2 coverage is often overcast and misty.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3df4105e-e63e-4bcc-8db4-99807a6bd0a5/ak_pipeline.png?format=750w',
+        text: 'The <b>Alaskan pipeline</b> which is usually visible from main roads, can be seen at these points.<br><br>'
+            'This is an easy way to identify Alaska as there are no similar pipelines in the rest of the US.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/b8359d75-4495-49ca-a63b-240eb4ddbd35/ak_shitcam.png?format=750w',
+        text: 'A <b>low quality camera</b> can sometimes be seen in Alaska.<br><br>'
+            'It has low resolution, high exposure, unnatural colours and circular blur.'
+            'It can only be seen in Alaska (see map).',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/0bb07649-90f3-425a-bb21-7f387c9b0170/ak_daltonhighway.png?format=750w',
+        text: 'The North end of the Dalton Highway features a <b>flat</b> and <b>snowy</b> landscape and an overcast sky.<br><br>'
+            'A small ridge of hills can be seen to the west of the highway in certain spots.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/735f3c47-e3f2-4d3a-b48b-b554fda30ef5/ak_denalihighway.png?format=750w',
+        text: 'The Denali highway, stretching from Cantwell to Paxson in central Alaska, is a mostly <b>gravel highway</b> in the ‘Alaska’ mountain range.<br><br>'
+            '•  east to west<br>'
+            '•  generation 2 camera<br>'
+            '•  taken in late summer, so wildflowers and green shrubby plants are common',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/c4434683-f51b-4e32-9a41-3488537e2b83/ak_steesehighway.png?format=750w',
+        text: 'The Steese Highway is another gravel highway that goes from Fairbanks to the town of Central.<br><br>'
+            '•  east to west<br>'
+            '•  generation 2 camera<br>'
+            '•  the mountains along this road are noticeably lower than the ones adjacent to the Denali Highway',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/c6e5c457-eba2-4e49-af95-a304c7d8069f/ak_taylorhighway.png?format=750w',
+        text: 'Highway 5, from the Yukon border to Tetlin Junction, can be recognized by the <b>foggy</b>, <b>rainy weather</b>, and <b>Generation 2</b> camera.<br><br>',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/2375a5cf-7c71-491c-b593-0f96467f0232/ak_prudhoebay.png?format=750w',
+        text: 'Prudhoe Bay, the northernmost town in America covered by street view, can be recognized by <b>cold</b>, <b>dead landscape</b>, <b>overcast clouds</b> and <b>lack of tall buildings</b>.<br><br>'
+            'A second Google car can sometimes be seen.',
+      ),
+      FlashcardContent(
+        image:  'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/f579ce67-ce6f-42a1-8859-90468df17f9e/ak_towntrekkers.png?format=750w',
+        text: 'Nome, Unalakleet and Galena are three isolated Alaskan towns which are covered only by trekker.<br><br>'
+            'The trekker’s <b>lime green hat</b> or <b>black and white beanie</b> can be seen.',
+      ),
+    ],
   };
 
   static final List<StateUS> statesus = <StateUS>[
