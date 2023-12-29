@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
-import 'package:geo_know/screen/countries_screen.dart';
+import 'package:geo_know/screen/country_list_screen.dart';
 
-class ContinentsScreen extends StatelessWidget {
-  const ContinentsScreen({super.key});
+class ContinentListScreen extends StatelessWidget {
+  const ContinentListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class ContinentsScreen extends StatelessWidget {
                       context,
                       MaterialPageRoute<void>(
                         builder: (BuildContext context) {
-                          return CountriesScreen(continent: continent);
+                          return CountryListScreen(continent: continent);
                         },
                       ),
                     );

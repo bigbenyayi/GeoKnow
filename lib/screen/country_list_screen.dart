@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
 import 'package:geo_know/model/country.dart';
-import 'package:geo_know/presentation/country_card.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
+import 'package:geo_know/presentation/territory_card.dart';
 import 'package:geo_know/values/countries.dart';
 
-class CountriesScreen extends StatelessWidget {
+class CountryListScreen extends StatelessWidget {
   final Continent _continent;
 
-  const CountriesScreen({super.key, required Continent continent}) : _continent = continent;
+  const CountryListScreen({super.key, required Continent continent}) : _continent = continent;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class CountriesScreen extends StatelessWidget {
         itemCount: countries.length,
         itemBuilder: (BuildContext context, int index) {
           final Country country = countries[index];
-          return CountryCard(country: country);
+          return TerritoryCard(territory: country);
         },
       ),
     );

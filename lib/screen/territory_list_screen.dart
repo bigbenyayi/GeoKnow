@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:geo_know/model/country.dart';
-import 'package:geo_know/model/stateus.dart';
+import 'package:geo_know/model/territory.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
-import 'package:geo_know/presentation/stateus_card.dart';
-import 'package:geo_know/values/statesus.dart';
+import 'package:geo_know/presentation/territory_card.dart';
+import 'package:geo_know/values/territories.dart';
 
-class StatesUSScreen extends StatelessWidget {
+class TerritoryListScreen extends StatelessWidget {
   final Country _country;
 
-  const StatesUSScreen({super.key, required Country country}) : _country = country;
+  const TerritoryListScreen({super.key, required Country country}) : _country = country;
 
   @override
   Widget build(BuildContext context) {
-    final List<StateUS> statesus = StatesUS.statesus.toList();
+    final List<Territory> territories = Territories.territories.toList();
     return Scaffold(
       appBar: CustomAppBar(title: _country.name),
       body: GridView.builder(
@@ -22,10 +22,10 @@ class StatesUSScreen extends StatelessWidget {
           mainAxisSpacing: 16.0,
         ),
         padding: const EdgeInsets.all(16.0),
-        itemCount: statesus.length,
+        itemCount: territories.length,
         itemBuilder: (BuildContext context, int index) {
-          final StateUS stateUS = statesus[index];
-          return StateUSCard(stateUS: stateUS);
+          final Territory territory = territories[index];
+          return TerritoryCard(territory: territory);
         },
       ),
     );

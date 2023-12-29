@@ -1,33 +1,35 @@
 import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/model/flashcard_content.dart';
-import 'package:geo_know/model/stateus.dart';
+import 'package:geo_know/model/territory.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
 import 'package:geo_know/values/countries.dart';
+import 'package:geo_know/values/territories.dart';
 
-import '../values/statesus.dart';
+class TerritoryScreen extends StatefulWidget {
+  final Territory _territory;
 
-class StateUSScreen extends StatefulWidget {
-  final StateUS _stateUS;
-
-  const StateUSScreen({super.key, required StateUS stateUS}) : _stateUS = stateUS;
+  const TerritoryScreen({super.key, required Territory territory}) : _territory = territory;
 
   @override
-  State<StateUSScreen> createState() => _StateUSScreenState();
+  State<TerritoryScreen> createState() => _TerritoryScreenState();
 }
 
-class _StateUSScreenState extends State<StateUSScreen> {
+class _TerritoryScreenState extends State<TerritoryScreen> {
   final ValueNotifier<int> _index = ValueNotifier<int>(0);
 
   @override
   Widget build(BuildContext context) {
-    final List<FlashcardContent> flashcards = StatesUS.flashcardContent[widget._stateUS.isoCode]!;
+    final List<FlashcardContent> flashcards = widget._territory is Country
+        ? Countries.flashcardContent[widget._territory.isoCode]!
+        : Territories.flashcardContent[widget._territory.isoCode]!;
     return Scaffold(
-      appBar: CustomAppBar(title: widget._stateUS.name),
+      appBar: CustomAppBar(title: widget._territory.name),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
@@ -63,7 +65,7 @@ class _StateUSScreenState extends State<StateUSScreen> {
                             sigmaY: 5.0,
                           ),
                           child: SvgPicture.asset(
-                            widget._stateUS.flag,
+                            widget._territory.flag,
                             fit: BoxFit.fitHeight,
                           ),
                         ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:geo_know/screen/continents_screen.dart';
+import 'package:geo_know/screen/continent_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(primary: const Color(0xFF004830), seedColor: const Color(0xFF004830)),
         useMaterial3: true,
       ),
-      home: const ContinentsScreen(),
+      home: const ContinentListScreen(),
     );
   }
 }

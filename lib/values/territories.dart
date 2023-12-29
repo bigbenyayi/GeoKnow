@@ -1,12 +1,10 @@
 // ignore_for_file: missing_whitespace_between_adjacent_strings
 import 'package:geo_know/model/flashcard_content.dart';
-import 'package:geo_know/model/stateus.dart';
+import 'package:geo_know/model/territory.dart';
 
 
-class StatesUS {
-  static final Map<String, List<FlashcardContent>> flashcardContent = <
-      String,
-      List<FlashcardContent>>{
+class Territories {
+  static final Map<String, List<FlashcardContent>> flashcardContent = <String, List<FlashcardContent>>{
     'pr': const <FlashcardContent>[
       FlashcardContent(
         image:
@@ -386,12 +384,11 @@ class StatesUS {
     ],
   };
 
-  static final List<StateUS> statesus = <StateUS>[
-    const StateUS(isoCode: 'us-al', name: 'Alaska'),
-    const StateUS(isoCode: 'us-hi', name: 'Hawaii'),
-    const StateUS(isoCode: 'us', name: 'Contiguous US'),
-    const StateUS(isoCode: 'vi', name: 'Virgin Islands'),
-    const StateUS(isoCode: 'pr', name: 'Puerto Rico'),
-
+  static final List<Territory> territories = <Territory>[
+    const Territory(isoCode: 'us-al', name: 'Alaska'),
+    const Territory(isoCode: 'us-hi', name: 'Hawaii'),
+    const Territory(isoCode: 'us', name: 'Contiguous US'),
+    const Territory(isoCode: 'vi', name: 'Virgin Islands'),
+    const Territory(isoCode: 'pr', name: 'Puerto Rico'),
   ];
 }

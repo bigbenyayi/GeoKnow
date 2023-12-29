@@ -2,38 +2,42 @@ import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/model/flashcard_content.dart';
-import 'package:geo_know/screen/country_screen.dart';
-import 'package:geo_know/screen/statesUS_screen.dart';
+import 'package:geo_know/model/territory.dart';
+import 'package:geo_know/screen/territory_list_screen.dart';
+import 'package:geo_know/screen/territory_screen.dart';
 import 'package:geo_know/values/countries.dart';
+import 'package:geo_know/values/territories.dart';
 
-class CountryCard extends StatelessWidget {
-  final Country _country;
+class TerritoryCard extends StatelessWidget {
+  final Territory _territory;
 
-  const CountryCard({
+  const TerritoryCard({
     super.key,
-    required Country country,
-  }) : _country = country;
+    required Territory territory,
+  }) : _territory = territory;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        final List<FlashcardContent>? flashcardContent = Countries.flashcardContent[_country.isoCode];
-        if (_country.isoCode == 'us') {
+        final List<FlashcardContent>? flashcardContent = _territory is Country
+            ? Countries.flashcardContent[_territory.isoCode]
+            : Territories.flashcardContent[_territory.isoCode];
+        if (_territory.isoCode == 'us' && _territory is Country) {
           Navigator.push(
-              context,
-              MaterialPageRoute<void>(
+            context,
+            MaterialPageRoute<void>(
               builder: (BuildContext context) {
-            return StatesUSScreen(country: _country);
+                return TerritoryListScreen(country: _territory as Country);
               },
             ),
           );
         } else if (flashcardContent != null) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute<void>(
-                      builder: (BuildContext context) {
-                        return CountryScreen(country: _country);
+          Navigator.push(
+            context,
+            MaterialPageRoute<void>(
+              builder: (BuildContext context) {
+                return TerritoryScreen(territory: _territory);
               },
             ),
           );
@@ -52,14 +56,14 @@ class CountryCard extends StatelessWidget {
           children: <Widget>[
             Row(
               children: <Widget>[
-                CircleFlag(_country.isoCode, size: 30.0),
+                CircleFlag(_territory.isoCodeCircleFlag, size: 30.0),
                 const SizedBox(width: 8.0),
                 Expanded(
                   child: FittedBox(
                     fit: BoxFit.scaleDown,
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      _country.name,
+                      _territory.name,
                       style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
                     ),
                   ),
@@ -72,13 +76,13 @@ class CountryCard extends StatelessWidget {
                 child: Stack(
                   children: <Image>[
                     Image.asset(
-                      _country.asset,
+                      _territory.asset,
                       color: Theme.of(context).primaryColor.withOpacity(.3),
                       height: 100,
                       width: 100,
                     ),
                     Image.asset(
-                      _country.asset,
+                      _territory.asset,
                       color: Colors.grey.shade300,
                       height: 97,
                       width: 97,
