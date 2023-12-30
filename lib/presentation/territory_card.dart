@@ -18,11 +18,11 @@ class TerritoryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final List<FlashcardContent>? flashcardContent = _territory is Country
+      ? Countries.flashcardContent[_territory.isoCode]
+      : Territories.flashcardContent[_territory.isoCode];
     return GestureDetector(
       onTap: () {
-        final List<FlashcardContent>? flashcardContent = _territory is Country
-            ? Countries.flashcardContent[_territory.isoCode]
-            : Territories.flashcardContent[_territory.isoCode];
         if (_territory.isoCode == 'us' && _territory is Country) {
           Navigator.push(
             context,
@@ -45,6 +45,11 @@ class TerritoryCard extends StatelessWidget {
       },
       child: Container(
         padding: const EdgeInsets.all(12.0),
+        foregroundDecoration: BoxDecoration(
+          color: flashcardContent != null || _territory.isoCode == 'us' && _territory is Country ? Colors.transparent : Colors.grey,
+          backgroundBlendMode: BlendMode.saturation,
+          borderRadius: const BorderRadius.all(Radius.circular(32.0)),
+        ),
         decoration: const BoxDecoration(
           color: Colors.white,
           boxShadow: <BoxShadow>[
