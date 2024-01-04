@@ -12,7 +12,7 @@ class ImagePlaceholder extends StatelessWidget {
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(16.0)),
       ),
-      child: BlurHash(hash: _blurHash),
+      child: BlurHash(hash: _blurHash, color: Colors.white),
     );
   }
 }

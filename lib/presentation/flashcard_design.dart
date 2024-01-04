@@ -2,11 +2,13 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/presentation/image_error_widget.dart';
 import 'package:geo_know/presentation/image_placeholder.dart';
+import 'package:octo_image/octo_image.dart';
 
 
 class FlashcardDesign extends StatelessWidget {
@@ -60,10 +62,12 @@ class FlashcardDesign extends StatelessWidget {
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
-                    child: CachedNetworkImage(
-                      imageUrl: flashcard.image,
-                      placeholder: (BuildContext context, __) => ImagePlaceholder(blurHash: flashcard.blurHash),
-                      errorWidget: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                    child: OctoImage(
+                      image: CachedNetworkImageProvider(flashcard.image),
+                      placeholderBuilder: (BuildContext context) {
+                        return blurHashPlaceholderBuilder(flashcard.blurHash, fit: BoxFit.contain);
+                      },
+                      errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
                     ),
                   ),
                 ),
@@ -82,11 +86,27 @@ class FlashcardDesign extends StatelessWidget {
       ],
     );
   }
+
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
     properties..add(StringProperty('flag', flag))
     ..add(DiagnosticsProperty<FlashcardContent>('flashcard', flashcard));
   }
-}
 
+  Widget blurHashPlaceholderBuilder(
+    String hash, {
+    BoxFit? fit,
+    Text? message,
+    IconData? icon,
+    Color? iconColor,
+    double? iconSize,
+  }) {
+    return SizedBox.expand(
+      child: Image(
+        image: BlurHashImage(hash),
+        fit: fit ?? BoxFit.cover,
+      ),
+    );
+  }
+}
