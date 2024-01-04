@@ -62,7 +62,7 @@ class FlashcardDesign extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
                     child: CachedNetworkImage(
                       imageUrl: flashcard.image,
-                      placeholder: (BuildContext context, __) => const ImagePlaceholder(),
+                      placeholder: (BuildContext context, __) => ImagePlaceholder(blurHash: flashcard.blurHash),
                       errorWidget: (BuildContext context, __, ___) => const ImageErrorWidget(),
                     ),
                   ),
