@@ -73,9 +73,11 @@ class FlashcardDesign extends StatelessWidget {
                 ),
                 Expanded(
                   child: Center(
-                    child: HtmlWidget(
-                      flashcard.text,
-                      textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+                    child: SingleChildScrollView(
+                      child: HtmlWidget(
+                        flashcard.text,
+                        textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+                      ),
                     ),
                   ),
                 ),

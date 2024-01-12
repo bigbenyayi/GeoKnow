@@ -31,7 +31,7 @@ class _TerritoryScreenState extends State<TerritoryScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Flexible(
-            flex: 6,
+            flex: 10,
             child: CardSwiper(
               cardsCount: flashcards.length,
               padding: const EdgeInsets.only(top: 64.0),
