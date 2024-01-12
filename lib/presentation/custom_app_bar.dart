@@ -4,11 +4,14 @@ import 'package:flutter/services.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String _title;
+  final Widget? _action;
 
   const CustomAppBar({
     super.key,
     required String title,
-  }) : _title = title;
+    Widget? action,
+  })  : _title = title,
+        _action = action;
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +37,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           Navigator.pop(context);
         },
       ),
+      actions: _action != null ? <Widget>[_action!] : null,
     );
   }
 

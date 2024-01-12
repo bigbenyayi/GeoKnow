@@ -36,6 +36,7 @@ dependencies:
   blurhash_dart: ^1.2.1
   flutter_blurhash: ^0.8.2
   octo_image: ^2.0.0
+  dotted_border: ^2.1.0
   flutter:
     sdk: flutter
 

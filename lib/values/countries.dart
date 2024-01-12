@@ -113,7 +113,7 @@ class Countries {
         text: 'The northwestern tip has many large buildings made of <b>unpainted grey brick</b>.',
       ),
       FlashcardContent(
-        blurHash: 'LGF\$qsbv9F-;~D-pM{xaI;t8t7tQ',
+        blurHash: r'LGF$qsbv9F-;~D-pM{xaI;t8t7tQ',
         image:
         'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/3b48629d-744b-4dd3-bf74-25bf9f3ddda2/bermuda_boat.png?format=1000w',
         text: 'A <b>boat trekker</b> can be seen on the eastern coast of Bermuda.<br><br>'
@@ -122,7 +122,7 @@ class Countries {
     ],
     'do': const <FlashcardContent>[
       FlashcardContent(
-        blurHash: 'LVQ]\$m-=IoxUs;R%RjR*_4bXRiNK',
+        blurHash: r'LVQ]$m-=IoxUs;R%RjR*_4bXRiNK',
         image:
             'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/5e59a2fb-1449-4eeb-b192-9a3e89481b07/Copy+of+Copy+of+Infographic+%281%29.png?format=750w',
         text: 'Quartered <b>blue-red</b> flag with a <b>central white cross</b> and <b>coat of arms</b>.<br><br>'
@@ -143,14 +143,14 @@ class Countries {
         text: 'Licence plates are pale <b>yellow</b> at the top and <b>white</b> at the bottom, with <b>black</b> letters.',
       ),
       FlashcardContent(
-        blurHash: 'LSG+O2WED\$xu_4R*RPj[x]RjRjof',
+        blurHash: r'LSG+O2WED$xu_4R*RPj[x]RjRjof',
         image:
         'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/26427300-c1ed-46a7-8201-21cb5324119d/Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Copy+of+Small+Pin+%282%29.png?format=750w',
         text: 'Mostly <b>square and concrete</b> electricity poles, with a reverse “L” shape at the top.<br><br>'
               'Poles can sometimes be round or octagonal.',
       ),
       FlashcardContent(
-        blurHash: 'LAFPEF?vM_t8xv4.4TMy%iIUn\$t7',
+        blurHash: r'LAFPEF?vM_t8xv4.4TMy%iIUn$t7',
         image:
         'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/60412f34-739b-434e-858d-736b278775ac/smoothasphalt.png?format=750w',
         text: '<b>Smooth asphalt</b> roads, darker than in other countries.',
@@ -206,7 +206,7 @@ class Countries {
         text: '<b>Black-and-purple</b> pole markings are only found on poles in the Santo Domingo area.',
       ),
       FlashcardContent(
-        blurHash: 'LYJklv00x]9FT2bc%1WCo\$t8s.WB',
+        blurHash: r'LYJklv00x]9FT2bc%1WCo$t8s.WB',
         image:
         'https://images.squarespace-cdn.com/content/v1/60f6054f4e76b03092956de8/935c0caf-7ccc-4d57-84dd-fc57cf1deb2b/Landscape_-_Santo_Domingo_Outskirts.png?format=750w',
         text: '<u>Narrow dirt tracks</u>, <u>whitish dirt</u> and <u>dried green shrubbery and debris</u> next to the road, are found on the outskirts of <b>Santo Domingo</b>.',
