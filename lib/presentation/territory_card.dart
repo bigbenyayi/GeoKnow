@@ -84,7 +84,7 @@ class TerritoryCard extends StatelessWidget {
                   children: <Image>[
                     Image.asset(
                       _territory.asset,
-                      color: Theme.of(context).primaryColor.withOpacity(.3),
+                      color: Theme.of(context).primaryColor.withValues(alpha: .3),
                       height: 100,
                       width: 100,
                     ),

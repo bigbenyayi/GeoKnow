@@ -19,20 +19,21 @@ class AddFlashcardScreen extends StatelessWidget {
           flag: _territory.flag,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
+            children: <Widget>[
               Expanded(
                 child: DottedBorder(
-                  borderType: BorderType.RRect,
-                  radius: const Radius.circular(16.0),
-                  borderPadding: const EdgeInsets.all(8.0),
-                  color: Colors.grey.shade400,
-                  dashPattern: const <double>[8.0, 8.0],
+                  options: RoundedRectDottedBorderOptions(
+                    radius: const Radius.circular(16.0),
+                    borderPadding: const EdgeInsets.all(8.0),
+                    color: Colors.grey.shade400,
+                    dashPattern: const <double>[8.0, 8.0],
+                  ),
                   child: Center(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Icon(Icons.add_a_photo, color: Colors.grey.shade400, size: 40.0),
-                        Text('Add image', style: TextStyle(color:Colors.grey.shade400)),
+                        Text('Add image', style: TextStyle(color: Colors.grey.shade400)),
                       ],
                     ),
                   ),
