@@ -31,10 +31,7 @@ class FlashcardDesign extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
               child: OctoImage(
-                image: CachedNetworkImageProvider(_flashcard.image),
-                placeholderBuilder: (BuildContext context) {
-                  return blurHashPlaceholderBuilder(_flashcard.blurHash, fit: BoxFit.contain);
-                },
+                image: CachedNetworkImageProvider(_flashcard.imageUrl),
                 errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
               ),
             ),
@@ -43,7 +40,7 @@ class FlashcardDesign extends StatelessWidget {
             child: Center(
               child: SingleChildScrollView(
                 child: HtmlWidget(
-                  _flashcard.text,
+                  _flashcard.body,
                   textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
                 ),
               ),

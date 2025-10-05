@@ -28,7 +28,6 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  circle_flags: ^5.0.0
   cached_network_image: ^3.4.1
   flutter_svg: ^2.2.1
   flutter_card_swiper: ^7.0.2
@@ -125,3 +124,4 @@ flutter:
     - assets/images/country_outlines/
     - assets/images/flags/
     - assets/images/state_outlines/
+    - assets/data/

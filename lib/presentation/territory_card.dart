@@ -1,12 +1,9 @@
-import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:geo_know/model/country.dart';
-import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/model/territory.dart';
 import 'package:geo_know/screen/territory_list_screen.dart';
 import 'package:geo_know/screen/territory_screen.dart';
-import 'package:geo_know/values/countries.dart';
-import 'package:geo_know/values/territories.dart';
+import 'package:geo_know/util/circle_flag.dart';
 
 class TerritoryCard extends StatelessWidget {
   final Territory _territory;
@@ -18,9 +15,6 @@ class TerritoryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<FlashcardContent>? flashcardContent = _territory is Country
-        ? Countries.flashcardContent[_territory.isoCode]
-        : Territories.flashcardContent[_territory.isoCode];
     return GestureDetector(
       onTap: () {
         if (_territory.isoCode == 'us' && _territory is Country) {
@@ -32,7 +26,7 @@ class TerritoryCard extends StatelessWidget {
               },
             ),
           );
-        } else if (flashcardContent != null) {
+        } else {
           Navigator.push(
             context,
             MaterialPageRoute<void>(
@@ -45,13 +39,6 @@ class TerritoryCard extends StatelessWidget {
       },
       child: Container(
         padding: const EdgeInsets.all(12.0),
-        foregroundDecoration: BoxDecoration(
-          color: flashcardContent != null || _territory.isoCode == 'us' && _territory is Country
-              ? Colors.transparent
-              : Colors.grey,
-          backgroundBlendMode: BlendMode.saturation,
-          borderRadius: const BorderRadius.all(Radius.circular(32.0)),
-        ),
         decoration: const BoxDecoration(
           color: Colors.white,
           boxShadow: <BoxShadow>[
@@ -63,7 +50,7 @@ class TerritoryCard extends StatelessWidget {
           children: <Widget>[
             Row(
               children: <Widget>[
-                CircleFlag(_territory.isoCodeCircleFlag, size: 30.0),
+                CircleFlag(_territory.isoCode, size: 30.0),
                 const SizedBox(width: 8.0),
                 Expanded(
                   child: FittedBox(

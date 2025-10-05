@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
-import 'package:geo_know/model/country.dart';
 import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/model/territory.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
 import 'package:geo_know/presentation/flashcard_design.dart';
 import 'package:geo_know/screen/add_flashcard_screen.dart';
-import 'package:geo_know/values/countries.dart';
-import 'package:geo_know/values/territories.dart';
+import 'package:geo_know/util/asset_json_util.dart';
 
 class TerritoryScreen extends StatefulWidget {
   final Territory _territory;
@@ -23,58 +21,64 @@ class _TerritoryScreenState extends State<TerritoryScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final List<FlashcardContent> flashcards = widget._territory is Country
-        ? Countries.flashcardContent[widget._territory.isoCode]!
-        : Territories.flashcardContent[widget._territory.isoCode]!;
     return Scaffold(
       appBar: _AppBar(territory: widget._territory),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: <Widget>[
-          Flexible(
-            flex: 10,
-            child: CardSwiper(
-              cardsCount: flashcards.length,
-              padding: const EdgeInsets.only(top: 64.0),
-              onSwipe: (int oldIndex, int? newIndex, __) {
-                _index.value = newIndex!;
-                return true;
-              },
-              cardBuilder: (BuildContext context, int index, int x, int y) {
-                final FlashcardContent flashcard = flashcards[index];
-                return FlashcardDesign (flag: widget._territory.flag, flashcard: flashcard);
-              },
-            ),
-          ),
-          ValueListenableBuilder<int>(
-            valueListenable: _index,
-            builder: (BuildContext context, int index, _) {
-              return Flexible(
-                child: Column(
-                  children: <Widget>[
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 64.0),
-                      child: ClipRRect(
-                        borderRadius: const BorderRadius.all(Radius.circular(16.0)),
-                        child: LinearProgressIndicator(
-                          value: (index + 1) / flashcards.length,
-                          minHeight: 8.0,
-                          color: Colors.grey.shade400,
-                          backgroundColor: Colors.grey.shade200,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: 4.0),
-                    Text(
-                      '${index + 1}/${flashcards.length}',
-                      style: TextStyle(color: Colors.grey.shade400, fontSize: 12.0),
-                    ),
-                  ],
+      body: FutureBuilder<List<FlashcardContent>>(
+        future: AssetJsonUtil.loadFlashcards(countryCode: widget._territory.isoCode),
+        builder: (BuildContext context, AsyncSnapshot<List<FlashcardContent>> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          }
+          final List<FlashcardContent> flashcards = snapshot.data!;
+          return Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              Flexible(
+                flex: 10,
+                child: CardSwiper(
+                  cardsCount: flashcards.length,
+                  padding: const EdgeInsets.only(top: 64.0),
+                  onSwipe: (int oldIndex, int? newIndex, __) {
+                    _index.value = newIndex!;
+                    return true;
+                  },
+                  cardBuilder: (BuildContext context, int index, int x, int y) {
+                    final FlashcardContent flashcard = flashcards[index];
+                    return FlashcardDesign(flag: widget._territory.flag, flashcard: flashcard);
+                  },
                 ),
-              );
-            },
-          )
-        ],
+              ),
+              ValueListenableBuilder<int>(
+                valueListenable: _index,
+                builder: (BuildContext context, int index, _) {
+                  return Flexible(
+                    child: Column(
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 64.0),
+                          child: ClipRRect(
+                            borderRadius: const BorderRadius.all(Radius.circular(16.0)),
+                            child: LinearProgressIndicator(
+                              value: (index + 1) / flashcards.length,
+                              minHeight: 8.0,
+                              color: Colors.grey.shade400,
+                              backgroundColor: Colors.grey.shade200,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 4.0),
+                        Text(
+                          '${index + 1}/${flashcards.length}',
+                          style: TextStyle(color: Colors.grey.shade400, fontSize: 12.0),
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              )
+            ],
+          );
+        },
       ),
     );
   }

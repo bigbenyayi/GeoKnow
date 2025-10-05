@@ -10,13 +10,6 @@ class Territory {
 
   String get isoCode => _isoCode;
 
-  String get isoCodeCircleFlag {
-    if (_isoCode == 'us-al') {
-      return 'us';
-    }
-    return _isoCode;
-  }
-
   String get name => _name;
 
   String get asset {

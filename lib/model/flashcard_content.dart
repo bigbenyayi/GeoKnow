@@ -1,21 +1,23 @@
 class FlashcardContent {
-  final String _image;
-  final String _text;
-  final String? _blurHash;
+  String _imageUrl;
+  String _body;
+  String? _locationUrl;
 
-  const FlashcardContent({
-    required String image,
-    required String text,
-    String? blurHash,
-  })  : _image = image,
-        _text = text,
-        _blurHash = blurHash;
+  FlashcardContent({
+    required String imageUrl,
+    required String body,
+    String? locationUrl,
+  }) : _body = body, _imageUrl = imageUrl, _locationUrl = locationUrl;
 
-  String get text {
-    return '<div style="text-align: center">$_text</div>';
-  }
+  factory FlashcardContent.fromJson(Map<String, dynamic> json) => FlashcardContent(
+    locationUrl: json['location_url'],
+    imageUrl: json['picture_url'],
+    body: json['body'],
+  );
 
-  String get image => _image;
+  String get body => '<div style="text-align: center">$_body</div>';
 
-  String get blurHash => _blurHash!;
+  String? get locationUrl => _locationUrl;
+
+  String get imageUrl => _imageUrl;
 }

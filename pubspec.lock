@@ -89,14 +89,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.13.0"
-  circle_flags:
-    dependency: "direct main"
-    description:
-      name: circle_flags
-      sha256: "875cd64e607b46838ce429e2f7cc88c615f8514181d2d0f9e73de37ba3fb2f52"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.0.0"
   clock:
     dependency: transitive
     description:
