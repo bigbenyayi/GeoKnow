@@ -6,6 +6,7 @@ import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/presentation/flashcard.dart';
 import 'package:geo_know/presentation/image_error_widget.dart';
 import 'package:octo_image/octo_image.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 
 class FlashcardDesign extends StatelessWidget {
@@ -30,9 +31,16 @@ class FlashcardDesign extends StatelessWidget {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
-              child: OctoImage(
-                image: CachedNetworkImageProvider(_flashcard.imageUrl),
-                errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+              child: GestureDetector(
+                onTap: () async {
+                  if (_flashcard.locationUrl != null) {
+                    await launchUrl(Uri.parse(_flashcard.locationUrl!), mode: LaunchMode.externalApplication);
+                  }
+                },
+                child: OctoImage(
+                  image: CachedNetworkImageProvider(_flashcard.imageUrl),
+                  errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                ),
               ),
             ),
           ),
