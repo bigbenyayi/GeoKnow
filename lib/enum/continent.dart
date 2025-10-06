@@ -5,4 +5,5 @@ enum Continent {
   northAmerica,
   oceania,
   southAmerica,
+  antarctica,
 }

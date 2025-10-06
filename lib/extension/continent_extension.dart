@@ -15,6 +15,8 @@ extension ContinentExtension on Continent {
         return 'North America';
       case Continent.southAmerica:
         return 'South America';
+      case Continent.antarctica:
+        return 'Antarctica';
     }
   }
 
@@ -32,6 +34,8 @@ extension ContinentExtension on Continent {
         return 'assets/images/continents/na.png';
       case Continent.southAmerica:
         return 'assets/images/continents/sa.png';
+      case Continent.antarctica:
+        return 'assets/images/continents/antarctica.png';
     }
   }
 }
