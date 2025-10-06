@@ -1,0 +1,32 @@
+[
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "body": ""
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/tHuevnuaPPyfP3ST8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/raq/Coverage_location.png",
+    "body": "Iraq's Street View coverage is limited to the <b>Iraqi National Museum</b> in Baghdad."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/TYRcoYXiDN18npct5",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/raq/Trekker_mounted_on_cart.png",
+    "body": "All coverage in Iraq is from a <b>Gen 1.5 trekker</b> with a camera similar to Gen 2 but with poorer image quality and often overexposed or blinding brightness."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/2yv4UYpvhiUn7LwcA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/raq/Bild_2022-07-01_181801364.png",
+    "body": "The trekker's blur in Iraq has a <b>well-defined pointed shape</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/MHY3BKixH2BKhx3p6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/raq/Bild_2022-07-01_181856327.png",
+    "body": ""
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/uN2uxkfFMPMU76np9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/raq/Steeles.png",
+    "body": "Inside the museum, you can find <b>statues, steles, multiple artifacts</b>, and several back rooms."
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "body": ""
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/otmXAQfR43YAKUzYA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_tripod.png",
+    "body": "Mainland China’s official coverage is shot with a <b>tripod</b>, resulting in motion blur and saturated colors. Coverage in Hong Kong and Macau uses <b>Google Cars</b> instead."
+  },
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_language.png",
+    "body": "<b>Chinese script</b> uses complex symbols. Mainland China typically uses <b>simplified Chinese</b> characters, which have fewer strokes than traditional forms used in Taiwan, Hong Kong, and Macau."
+  },
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_licenceplate.png",
+    "body": "<b>Chinese licence plates</b> are blue with white text."
+  },
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_coverage.png",
+    "body": "<b>Coverage</b> in mainland China is limited, mostly around major eastern cities. Some areas are <b>hidden</b> on Google Maps but accessible via other mapping apps."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/3CuSgZx5AikTBYwa9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_museums.png",
+    "body": "Much of the <b>coverage</b> is inside museums, mainly in Beijing and Shanghai but also in many other cities."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/HXYKRv6u9YGqz4uA8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_ancienttowns.png",
+    "body": "Historic <b>ancient towns</b> with coverage include Zhoucun, areas near Xuzhou, Yangzhou, west of Jiaxing, and west of Zhangzhou."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/N1EK4YpxPCeLrZFDA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_urban.png",
+    "body": "Modern <b>urban area</b> coverage is found in Beijing, Yangzhou, Shanghai, Shenzhen, and Chengdu."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/zAALwQg5wcHqz6AH8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_forbiddencity.png",
+    "body": "The <b>Forbidden City</b> (Palace Museum) is a prominent palace complex located in central Beijing."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/VjETDsdh2ZkTfUab8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_todayartmuseum.png",
+    "body": "Near Beijing’s Today Art Museum is a modern street lined with cafes, bars, and an <b>uncanny statue</b> out front."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/bKxeaX3N6Dnzi5AN7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_sichuanmuseum.png",
+    "body": "The <b>Sichuan Museum</b> in Chengdu features a parking area with abundant greenery."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/mQEmfDV1VzCJjqAM6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_hubeimuseum.png",
+    "body": "The Hubei Museum in Wuhan stands out due to its <b>palace-style architecture</b> and grey roofs."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@30.2232945,120.1526687,2a,79.6y,249.45h,96.54t/data=!3m6!1e1!3m4!1sZdljSlLFkKAAAAQvxgSQgg!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_museumofsilk.png",
+    "body": "The <b>Museum of Silk</b> in Hangzhou is known for its rounded glass facade and distinctive front fountain."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/ZadE469v7gEDyHRJA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_longmuseum.png",
+    "body": "The <b>Long Museum</b> in Shanghai features a boxy concrete building design."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/GnG3GnGZ3vKFwro57",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_suzhoumuseum.png",
+    "body": "Suzhou Museum is recognized by its white and grey <b>symmetrical angular design</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/UEYT4oc5eK6drFYp8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_yangzhoumuseum.png",
+    "body": "The <b>Yangzhou Museum</b> is distinguished by its beige, rounded stone exterior."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/TnNb1jRvNsKdTun58",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/china/cn_zhoucunancientcity.png",
+    "body": "Zhoucun is the only pinpointable ancient city in China, recognized by its straight north-south street."
+  }
+]

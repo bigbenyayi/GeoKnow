@@ -1,0 +1,317 @@
+[
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "body": ""
+  },
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_Licence_Plate.png",
+    "body": "Israeli licence plates are <b>yellow with a blue strip</b> on the left, commonly used also on the West Bank."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/HKkcWapSvEt2eQqK7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_car.png",
+    "body": "Most Generation 3 coverage was taken by a <b>black Street View car</b> with a long antenna, alongside variations without antenna and a silver car with a short antenna."
+  },
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_language.png",
+    "body": "Two languages are typical: <b>Hebrew</b> (mainly in Israel and the West Bank) and <b>Arabic</b> (common especially in the West Bank)."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/hhScwquZcUzWESXW9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_landscape.png",
+    "body": "The landscape varies from <b>green Mediterranean hills</b> in the north to <b>very arid south.</b>"
+  },
+  {
+    "locationUrl": "https://maps.app.goo.gl/tqduKCT4yWSuyqmU9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_architecture.png",
+    "body": "Architecture features bright, warm-coloured <b>stone buildings</b> often blocky, with Mediterranean-style orange tiled or flat roofs."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/xkmsD4obYzcgY9TE9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/IL_Roadlines.png",
+    "body": "Roads usually have <b>yellow outer lines</b> and <b>white center lines.</b>"
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/mJ43fQbgtLbgBhdA6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_kerb.png",
+    "body": "Striped kerbs like <b>red and white</b> or <b>black and white</b> are common; rarer variants include red-yellow and blue-white."
+  },
+  {
+    "locationUrl": "https://maps.app.goo.gl/PkfkPFXcEzUTqLLV7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_guardrails.png",
+    "body": "Both <b>A-type and B-type guardrails</b> are frequent; B-type is common only in Turkey besides Israel."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/z8QaiRb6dxX6qdBfA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/Israeli_Chevron.png",
+    "body": "<b>Chevrons</b> are white on black."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/f9CSv2NjepEtSyuJ7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_kmmarker.png",
+    "body": "Kilometre markers are white with a thick border in red, green, or blue."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/EMEy9HCscujaXCzz9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_stopsign.png",
+    "body": "Stop signs feature a <b>hand-painted stop symbol</b> rather than a word."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/LXHfbNpdLbwJqFQbA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/IL_Stripy_Pole.png",
+    "body": "Utility poles often have black and white striped bottoms."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/B5DxzkHEwCVxpCiR6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/IL_Mesh_Pole.png",
+    "body": "Utility poles with mesh framework are widespread."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/xvwWTaqLSTT8Hvs68",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_utilitypolesigns.png",
+    "body": "Yellow warning signs are frequently attached to utility poles."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/rg94vCLJCmMKAWLe7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_gen4.png",
+    "body": "Generation 4 coverage is restricted to Israel, taken mainly with a black Street View car."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/RNk8F2LsWxDMJgVD6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_gen4smudge.png",
+    "body": "Most Generation 4 images feature a dirty front camera."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/MVV1iCyrao6vyc9RA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_gen4nosmudge.png",
+    "body": "Clear front camera Generation 4 coverage is mainly around Tel Aviv."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/eQDpMa2zBoWHzE5f7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_northlandscape.png",
+    "body": "Northern Israel is <b>mountainous and green</b>, with frequent forested hills."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/G6BQgcK88r3toJir6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_centrallandscape.png",
+    "body": "Central Israel is generally <b>flat with several cities</b> and better highway conditions."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/iJSjR7KCdPup1QHC7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_southdry.png",
+    "body": "Southern Israel and eastern West Bank are <b>extremely dry and sandy.</b>"
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/9YnBmm9MiU9dv7YB9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_jerusalemlandscape.png",
+    "body": "The area west of Jerusalem is <b>hilly and forested</b>, similar to northern Israel but without wide flat valleys; buildings often use Jerusalem stone."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/3ouHpyxHgSiaJz717",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_landscape.png",
+    "body": "Most of the West Bank has a <b>semi-arid Mediterranean landscape</b>, greener than southern Israel but drier than northern Israel."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/E14v1onUfVCFCYBM7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_jerusalemarchitecture.png",
+    "body": "Jerusalem buildings use <b>Jerusalem stone</b>, smooth on newer constructions; similar single houses appear elsewhere."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/i1QuZXupR7k7CeW96",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_palmplantation.png",
+    "body": "<b>Date palm plantations</b> are common near the Jordanian border."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/Ano5FHMymHTTryyU9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_rockwalls.png",
+    "body": "<b>Cement rock walls</b> are often found in northern Israel."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/6NrREqt9Dsp3kpDR6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_deadsea.png",
+    "body": "The <b>Dead Sea</b> is identifiable by its surrounding dryness; visible also from Jordan and the West Bank."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/TQr8cV9ZA8REo1NK7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_seaofgalilee.png",
+    "body": "The <b>Sea of Galilee</b> is a major water body, more vegetated and thus distinct from the Dead Sea."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@32.7675417,35.1001021,3a,75y,245.63h,85.59t/data=!3m6!1e1!3m4!1siG_WNEx2LKzuhR-vPuhr2g!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_mountcarmel.png",
+    "body": "<b>Mount Carmel</b> is a mountain ridge near Haifa, recognizable by its northwest-southeast direction and green high-altitude coverage."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@32.4991773,35.4864055,3a,75y,259.27h,87.06t/data=!3m7!1e1!3m5!1s410LXPfVdPpF25et87jsfQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3D410LXPfVdPpF25et87jsfQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D356.51886%26pitch%3D0%26thumbfov%3D100!7i13312!8i8192?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ilps_mountgilboa.png",
+    "body": "<b>Mount Gilboa</b> is a dry mountain with green coverage on top, offering views over nearby valleys."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/vXdgc4GqrceYKohx7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_irrigationchannel.png",
+    "body": "Small irrigation canals are common alongside roads near Beit She'an."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/EmGEvYsPGHrkzRun8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_licenceplates2.png",
+    "body": "West Bank license plates are typically white with green text, while public transport vehicles invert these colors."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/bdpqi69cm1efcunK8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_followcarwhite.png",
+    "body": "A common security <b>follow car</b> in the West Bank is a small white Suzuki found mainly in central and southern areas."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/a38qLgKhQomdi26x5",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_followcardarkblue.png",
+    "body": "A small dark blue Ford follow car is often spotted in the northwest West Bank."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/FkHz1cDrgoL7ZUhn8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_followcarbigwhite.png",
+    "body": "A large white Citroën follow car with 'SECURITY' on its side is found around Jerusalem, Bethlehem, and Ramallah; coverage includes a black antenna-less Street View car."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/EpTsbrLa5KGEgu8TA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_90.png",
+    "body": "Road 90, Israel's longest road, is identifiable by its north-south orientation and dry landscape, sometimes resembling roads 31 and 40."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@29.7413908,35.007595,3a,75y,33.38h,86.1t/data=!3m7!1e1!3m5!1sdJRA9qfoAXZ-BCtZlI4anA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DdJRA9qfoAXZ-BCtZlI4anA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D104.547134%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_90south.png",
+    "body": "The southern part of Road 90 features dry mountains to the east and frequent palm trees."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@32.7498986,34.9518176,3a,75y,2.39h,88.92t/data=!3m6!1e1!3m4!1sUt4eHtL5YHnk78xsYWxAPQ!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_road2.png",
+    "body": "Road 2 is recognized by the Mediterranean Sea to its west; if mountains appear east, you are near Haifa and Zikhron Yaakov."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/tphCsAKrSi5UxEyY8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_mounttavor.png",
+    "body": "<b>Mount Tavor</b> in Northern District has a soft, round shape."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@29.7883991,34.9728739,3a,90y,253.47h,91.28t/data=!3m6!1e1!3m4!1srQYeZ-dZHaU5W8yiJEZCwg!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_timna.png",
+    "body": "<b>Timna National Park</b> is characterized by complete dryness and surrounding mountain ridges in all directions."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@29.5672287,34.9657281,3a,35.6y,115.87h,90.5t/data=!3m6!1e1!3m4!1sqRUy1UVGxfGle5kVYgchbg!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_eilatmountain.png",
+    "body": "Tall rocky mountains east of Eilat make the city easily recognizable."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/8sCuhVixZ8fLtng18",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_kiryatshmona.png",
+    "body": "A mountain range in northern Israel looks like a camel's back; seeing it to the west indicates you are in Kiryat Shmona."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/wfBUmAiXe5txiGBD7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_hasolelim.png",
+    "body": "North of Hasolelim forest reserve lies a large reservoir visible in coverage."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/mp1DsLhHH8rHavBJA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_telavivparking.png",
+    "body": "Parking in Tel Aviv is scarce, so roadsides are often filled with parked cars; free spots are more common in northern areas."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@31.7957494,35.2077627,3a,26.4y,2.29h,100.33t/data=!3m6!1e1!3m4!1sBCMv6RJvfbwDhEBN8DmgYw!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_jerusalemsign.png",
+    "body": "White rectangular signs with a thin blue border are typical in Jerusalem."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/UxwfBqkZpgmhGxwd7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_jericho.png",
+    "body": "Jericho is identifiable by <b>date palms</b> in sparsely built, poorer urban settings."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/PhMiK5g95CMAki9f7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_ramallahwatertanks.png",
+    "body": "Ramallah often features numerous black water tanks on buildings, a distinctive local trait."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@32.4601767,35.0436309,3a,49y,41.16h,102.28t/data=!3m6!1e1!3m4!1sUQBfK4jKH-Fk2KXivzMEEA!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_harishhouse.png",
+    "body": "Unique grey mosaic brick work shaped like towers is distinctive to Harish city."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@33.0089431,35.0978896,3a,42.9y,282.97h,86.43t/data=!3m6!1e1!3m4!1sliFC5p4zZ5m5TpmI-LO5tQ!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_nahariyalamp.png",
+    "body": "The white lamp with three arms and round bulbs is unique to Nahariya."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/kQmEWrXhY7Eob1TZA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_acrelamp.png",
+    "body": "<b>Barad Dûr-shaped lamps</b> in various colours are unique to Acre; similar lamps in central Israel lack the gap between the horns."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@31.4254348,34.5960231,3a,51.9y,174.24h,91.83t/data=!3m6!1e1!3m4!1sBWkwj08SL9bIy3-gnxEnTQ!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_netivotlamp.png",
+    "body": "Angular metal lamps with one high and one low lamp are unique to Netivot."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/mEK5UDjicvFPYdLMA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_eilatpole.png",
+    "body": "Utility poles with blue and white paint at the base are unique to Eilat."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/7a5J9PUkw8Uph9ocA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_kiryatmotzkinfence.png",
+    "body": "Yellow fences and signposts are distinct to Kiryat Motzkin."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/u4uef4jWJnKak2Lc6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_ashdodfence.png",
+    "body": "Blue and white fences are common in Ashdod."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/8DW1NTcm7GbR5BQdA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/ps_betlehemhousenumber.png",
+    "body": "Bethlehem house numbers are blue with Arabic numerals on top left and Eastern Arabic numerals on bottom right, separated by a thin diagonal line."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/CL5WbWoEM2Xox64QA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_roshhaayinhousenumber.png",
+    "body": "House numbers in Rosh Haayin are blue with a G-clef symbol on the bottom left."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/51TcLiNaqaY5ny3UA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_nesszionahousenumber.png",
+    "body": "In Ness Ziona, house numbers feature an Israeli flag."
+  },
+  {
+    "locationUrl": "https://www.google.com/maps/@32.1636082,34.8452915,3a,15y,274.43h,90.35t/data=!3m6!1e1!3m4!1sKCqd6MMHcmRKgiNpkFcDuQ!2e0!7i13312!8i6656?entry=ttu",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_herzliyahousenumber.png",
+    "body": "Herzliya has unique blue, shield-shaped house numbers."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/fkBXjudj1T29eJL57",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_bneibrak.png",
+    "body": "Bnei Brak is an ultra-Orthodox Jewish area identifiable by people wearing traditional religious clothes."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/TghQA3fPPdXUqFGu5",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_raananaroundabout.png",
+    "body": "Roundabout signs with very thick designs or large cube bases are found in Raanana."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/B6uNbaSr1Hg4sz5A8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_chimneys.png",
+    "body": "Tall industrial chimneys near the Netanya coast are visible from a distance."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/dSofA6vuqb3CNgMh6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_rahatfollow.png",
+    "body": "A grey Hyundai follow car is unique to Rahat."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/vcj3pP9pRe7rasEN8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/rael-west-bank/il_nationaltrail.png",
+    "body": "The <b>Israel National Trail</b> traverses the country, featuring diverse landscapes and marked with orange, blue, white, and other colored trail signs."
+  }
+]

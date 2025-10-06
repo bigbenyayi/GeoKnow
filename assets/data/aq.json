@@ -1,0 +1,107 @@
+[
+  {
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "body": ""
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/WdvUjKikrvCAbKnTA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_snow.png",
+    "body": "Most of Antarctica is covered in <b>snow and ice</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/rX871TMMebN15wqg9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_darksoil.png",
+    "body": "The soil will always be <b>dark</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/aAvFMEQ8jfkek3M88",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_pingwings.png",
+    "body": "<b>Penguins</b> can be found on parts of the coverage. NOTE: This is mostly useful to exclude coverage in the Arctics."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/FSAzovZcXiTLsyHL6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_halfmoonisland.png",
+    "body": "<b>Half Moon Island</b> was covered by a <b>tripod</b>. It can also be recognized by the numerous other people in <b>red jackets</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/Gj7cPhS9x5U15ugp6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_deceptionisland.png",
+    "body": "The <b>Deception Island Bay</b> can be recognized by the <b>blue and white ship</b> in the bay, and the <b>abandoned equipment</b> on the beach."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/swvB96kQYetBxFwy8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_deceptionislandconga.png",
+    "body": "The trekker can be seen walking in a <b>line</b> on <b>Deception Island</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/sqvn11NCvto2voh6A",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_deceptionislanddarkbeach.png",
+    "body": "A beach with <b>black sand</b> and many <b>penguins</b> can be seen on <b>Deception Island</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/MM4jjEUWScfLfeaRA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_cuvervilleisland.png",
+    "body": "<b>Cuverville Island</b> can be recognised by the <b>overcast weather</b> combined with the coastline to the <b>northwest</b>. You’ll also see a decent number of <b>penguins</b>, particularly toward the <b>east</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/gBuhotZS2bQfrf3K7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_dancoisland.png",
+    "body": "<b>Danco Island</b> can be recognised by the beautiful <b>sunset coverage</b> over a <b>snowy fjord</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/WUnCLoJWf27e4EUv8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_petermannisland.png",
+    "body": "<b>Petermann Island</b> can be recognized by the layer of <b>snow</b> with patches of <b>exposed rocks</b>, and the <b>overexposed camera</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/q1ELtwJAtkANiymK8",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_rossisland.png",
+    "body": "The coverage at the western tip of <b>Ross Island</b> can typically be recognised by the extremely <b>dark, and mostly barren, rocky soil</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/uPXAtuGAxSUEUy9k6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_rossislandcabin.png",
+    "body": "A <b>tripod</b> featuring the exterior and interior of a small <b>wooden cabin</b> with a <b>grey metal roof</b> can be found south of the eastern tip of <b>Ross Island</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/v1NYrq3KVTwiQoSH6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_mcmurdo.png",
+    "body": "<b>McMurdo Station</b> is the largest research station on Antarctica, and can be recognized by the <b>dark brown soil</b>, many <b>buildings</b>, <b>American infrastructure</b> and <b>sunset coverage</b>. NOTE: A lot of the coverage around McMurdo Station has the sun setting in the south, which shouldn’t lead you to guess in the northern hemisphere."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/HcARGup685XbAc4FA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_mcmurdotripods.png",
+    "body": "You can also find <b>tripod</b> coverage inside several <b>buildings</b> at <b>McMurdo Station</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/NizvjKX7WiCXrc2VA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_mcmurdohut.png",
+    "body": "On the eastern side of <b>McMurdo Station</b> you can find a small <b>wooden cabin</b>, having a <b>tripod</b> going inside."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/hTguZarvbp4eNazB7",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_icetrekker.png",
+    "body": "Southeast of <b>McMurdo station</b>, the trekker can be seen walking on a layer of <b>ice</b> around various <b>machinery</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/p1n1tgcGbNEa3J5fA",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_mainlandvalleys.png",
+    "body": "The trekker can be seen walking through a fantastical landscape consisting of many <b>desolate valleys</b> on mainland <b>Antarctica</b>, west of <b>Ross Island</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/3w5rtf8c1hvmRAZo9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_blackisland.png",
+    "body": "A vast, <b>snowy landscape</b> with spread out <b>hills</b> can be seen south of <b>McMurdo station</b>."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/bPnDUuJDiiSAtmoY6",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_southpole.png",
+    "body": "The <b>tripod</b> at the <b>south pole</b> can be recognized by numerous countries’ <b>flags</b> around the tripod, and a sign with ‘Geographic South Pole’ written on it. This location is often on community-made world maps for a better scoring range."
+  },
+  {
+    "locationUrl": "https://goo.gl/maps/tubFheZLxov1FxXz9",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/ntarctica/aq_southpoleobservatory.png",
+    "body": "The <b>South Pole Observatory</b> has <b>tripod</b> coverage going around and inside of it."
+  }
+]
