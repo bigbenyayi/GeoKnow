@@ -10,8 +10,8 @@ class FlashcardContent {
   }) : _body = body, _imageUrl = imageUrl, _locationUrl = locationUrl;
 
   factory FlashcardContent.fromJson(Map<String, dynamic> json) => FlashcardContent(
-    locationUrl: json['location_url'],
-    imageUrl: json['picture_url'],
+    locationUrl: json['locationUrl'],
+    imageUrl: json['imageUrl'],
     body: json['body'],
   );
 
