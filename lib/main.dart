@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:geo_know/screen/continent_list_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
