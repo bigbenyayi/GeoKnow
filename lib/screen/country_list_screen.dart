@@ -43,7 +43,7 @@ class CountryListScreen extends StatelessWidget {
               },
             );
           }
-          final Country country = countries[index];
+          final Country country = countries[index - 1];
           return TerritoryCard(territory: country);
         },
       ),
