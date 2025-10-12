@@ -1,7 +1,7 @@
 [
   {
     "locationUrl": null,
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "imageUrl": "https://www.plonkit.net/images/resize/900/80/kyrgyzstan/summary_kyrgyzstan.png",
     "body": ""
   },
   {
@@ -31,217 +31,217 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/rwsKJCwdMeRSTAcB9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Bollards.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Bollards.png",
     "body": "Kyrgyzstan uses <b>simple white bollards with diagonal black stripes near the top</b>."
   },
   {
     "locationUrl": "https://www.google.com/maps/@42.9073983,74.7665076,3a,17.5y,215.42h,81.12t/data=!3m6!1e1!3m4!1sc3ikdXkDsMbMckuCH55WDA!2e0!7i13312!8i6656?entry=ttu",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrg_KM_marker.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrg_KM_marker.png",
     "body": "<b>Kyrgyzstan kilometre markers</b> feature a unique <b>red and white triangle pattern</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/iL8rca3LaHihGVZRA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Mosques.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Mosques.png",
     "body": "Kyrgyzstan has many <b>mosques</b>, reflecting its Muslim majority population."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Coverage_Map_V4.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Coverage_Map_V4.png",
     "body": "Coverage in Kyrgyzstan is limited; knowing covered roads improves location guessing."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Driving_Directions_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Driving_Directions_V2.png",
     "body": "Knowing <b>driving directions</b> on major roads helps narrow guesses."
   },
   {
     "locationUrl": "https://goo.gl/maps/HMf4AZ1YPWtGTVpg7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Just_look_at_the_mirror_V8_too_many.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Just_look_at_the_mirror_V8_too_many.png",
     "body": "The Google car’s mirror helps identify regions: in southern Kyrgyzstan, less road is visible and reflections are more diagonal compared to other areas."
   },
   {
     "locationUrl": "https://goo.gl/maps/o2wwkRRptUWUWDmo8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Keep_looking_at_the_mirror_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Keep_looking_at_the_mirror_V2.png",
     "body": "West of the roundabout near Jalal-Abad, the car’s mirror often has dirt on it."
   },
   {
     "locationUrl": "https://goo.gl/maps/gyVuS1QiJTm8GQCd9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Copy_of_Just_look_at_the_mirror_again_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Copy_of_Just_look_at_the_mirror_again_V2.png",
     "body": "A small black dot on the car mirror indicates a specific southern region."
   },
   {
     "locationUrl": "https://goo.gl/maps/skb6VQAqHRAcexMC6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Divided_roads_Hint_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Divided_roads_Hint_1.png",
     "body": "Divided roads mainly appear in and around Bishkek, including a major highway from Bishkek to Balykchy."
   },
   {
     "locationUrl": "https://www.google.com/maps/@?api=1&fov=132.58999981193614&heading=197.9266087914633&map_action=pano&pano=zKjzHRthd9WfFd4GNqHSaA&pitch=-0.7394314880160806&viewpoint=42.597137%2C76.831973#extra%5Btags%5D=Y&extra%5BloadMode%5D=latLng",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Lake_Issyk_Kul_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Lake_Issyk_Kul_v2.png",
     "body": "<b>Lake Issyk Kul</b>, Kyrgyzstan’s largest body of water, is visible north and south of the lake, sometimes obscured by buildings or trees."
   },
   {
     "locationUrl": "https://goo.gl/maps/pv2tZVBKsszXTKdd6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Northern_Snowy_Region_Hint_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Northern_Snowy_Region_Hint_1.png",
     "body": "Northern roads have <b>significant snow cover</b> and bright skies; southern roads also have snow but can be distinguished by car mirror clues."
   },
   {
     "locationUrl": "https://goo.gl/maps/Tc1QDdDZTJdryLdQ9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Bishkek_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Bishkek_1.png",
     "body": "<b>Bishkek</b>, the capital, is the most developed city, with many tall multi-story buildings and nearby mountains to the south."
   },
   {
     "locationUrl": "https://goo.gl/maps/WeFiqPbswXrt3s8U9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Bishkek_Snow_coverage.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Bishkek_Snow_coverage.png",
     "body": "Urban <b>snow coverage</b> is visible in parts of Bishkek."
   },
   {
     "locationUrl": "https://goo.gl/maps/UgvY626Vi5aGz7Df7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/South_of_Bishkek.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/South_of_Bishkek.png",
     "body": "Coverage south of Bishkek features hills with the <b>Tian Shan mountains</b> visible to the south and smog to the north due to pollution."
   },
   {
     "locationUrl": "https://goo.gl/maps/EHbnkHkdfg3aqVyLA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Around_Bishkek_Poles_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Around_Bishkek_Poles_v2.png",
     "body": "Towns around Bishkek have <b>colorful utility poles</b> painted yellow, green, white, with sometimes red tops."
   },
   {
     "locationUrl": "https://goo.gl/maps/97nsWmobJFPzMVXJ6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_vibe.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_vibe.png",
     "body": "<b>Osh</b> is the second largest city with southern mirror coverage, distinguishable from Bishkek by better weather with some clouds but never fully overcast."
   },
   {
     "locationUrl": "https://goo.gl/maps/DEPbcULsyZNDzdDH8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_leaves.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_leaves.png",
     "body": "In Osh, trees mostly still have their <b>leaves</b>, differentiating it from Bishkek in winter."
   },
   {
     "locationUrl": "https://goo.gl/maps/2gBaYbm5Zs1DEU6T6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Osh_1.png",
     "body": "Osh city center has unique mountains topped with <b>radio masts</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/8ZJqNkZ5ATmyacDy7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Jalal-Abad.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Jalal-Abad.png",
     "body": "Jalal-Abad, the third largest city, has <b>extremely overcast</b> coverage with snowy hills to the east and is distinguished from Osh by bad weather."
   },
   {
     "locationUrl": "https://goo.gl/maps/yWndZzNBL8bTe8aF7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arslanbob_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arslanbob_v2.png",
     "body": "<b>Arslanbob</b> is a snowy mountain town north of Jalal-Abad with significant elevation changes and southern mirror coverage."
   },
   {
     "locationUrl": "https://goo.gl/maps/yjvRrEH9N6uMEi9X6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Uzgen_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Uzgen_V2.png",
     "body": "Uzgen lies between Osh and Jalal-Abad, has snowy, overcast coverage and southern mirror."
   },
   {
     "locationUrl": "https://goo.gl/maps/xDDcMFDnbhMqCT4N7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Talas_Poles_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Talas_Poles_V2.png",
     "body": "In Talas, most poles are painted white at the bottom with red and yellow stripes."
   },
   {
     "locationUrl": "https://goo.gl/maps/6txQ8FyY95bws2Kh7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Karakol_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Karakol_V2.png",
     "body": "Karakol city sits between snow-capped mountains; the coverage shows sunny weather and melting snow."
   },
   {
     "locationUrl": "https://goo.gl/maps/9U4MDjQJUPrwpWfC6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Naryn_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Naryn_2.png",
     "body": "Naryn is characterized by a steep orange ridge to the north and large snowy mountains to the south."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-04.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-04.png",
     "body": "The EM-04 is a major road from Bishkek to Osh, with detailed coverage including 10 location tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/spkEC7knYyAvjdVw6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_1_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_1_1.png",
     "body": "From Sokuluk to Kara Balta on EM-04, noticeable <b>sunset coverage</b> occurs, featuring the 'Black Dot Mirror'."
   },
   {
     "locationUrl": "https://goo.gl/maps/YwwbZ6nUQMGJ6SP19",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_2.png",
     "body": "The Tian Shan mountains appear to the south of this mostly flat section of EM-04. The further from mountains, the foggier they look."
   },
   {
     "locationUrl": "https://goo.gl/maps/af4i9bSruHkKCgkg8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_3.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Em-04_Section_3.png",
     "body": "This area features steep purple/red rocky cliffs with sparse grass and shrubs, brown electricity pylons, and curved concrete guardrails."
   },
   {
     "locationUrl": "https://goo.gl/maps/5Yd93m1nMW4Jk5gZ6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-9_Section_3_v2__281_29.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-9_Section_3_v2__281_29.png",
     "body": "Long stretches of snow surround hilly terrain on EM-9, except northeastern and southwestern parts in mountains."
   },
   {
     "locationUrl": "https://goo.gl/maps/p9x6fLydRRLhXN9P9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_5.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_5.png",
     "body": "This road section passes through rocky cliffs with spruce trees on mountainsides and blue signposts along the way."
   },
   {
     "locationUrl": "https://goo.gl/maps/RHVaRMFcTuvYNzDY6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_7_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_7_1.png",
     "body": "The mostly dried Toktogul Reservoir is visible nearby, with taller mountains surrounding, greener in the south and desolate in the north."
   },
   {
     "locationUrl": "https://goo.gl/maps/L5voygtpABDfmuKB9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_8.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_8.png",
     "body": "This on-road section usually shows the Toktogul Reservoir north, amidst hilly terrain; the road here is better maintained than farther south."
   },
   {
     "locationUrl": "https://goo.gl/maps/BMnyMAxCE6GNkZsf6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Nice_Valley_Road_V2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Nice_Valley_Road_V2.png",
     "body": "EM-04 passes through a river gorge flanked by large rocky mountains, featuring overcast skies and the Naryn River to the north."
   },
   {
     "locationUrl": "https://goo.gl/maps/vmWUwPCrYwgydPUG9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_10.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_section_10.png",
     "body": "Southern road regions show extensive agriculture and vegetation, flat areas near hills, and feature the Southern Dirty Mirror."
   },
   {
     "locationUrl": "https://goo.gl/maps/2PDqgh7ZqdsJNrxaA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_Section_11.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-04_Section_11.png",
     "body": "Northern road northwest of Uzgen features overcast skies and ample snow, with the Southern Mirror."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_A365_EM-11.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_A365_EM-11.png",
     "body": "The EM-11, or A365 in Geoguessr, runs from Bishkek to the Chinese border, marking the coverage end, with 10 associated tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/EjtbU1CRPj41MDRr6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_1.png",
     "body": "The divided EM-11 stretch has a <b>grassy median</b> up to Khun-Chi."
   },
   {
     "locationUrl": "https://goo.gl/maps/x37bVZSXHnevbMqi6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_2_v3.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_2_v3.png",
     "body": "From Khun-Chi to east of Tokmok, the road has road lines with a wide median gap."
   },
   {
     "locationUrl": "https://goo.gl/maps/iEFn4jF322ZoHUt4A",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_2.5.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_2.5.png",
     "body": "The road lines gap narrows eastwards up to east of Kemin."
   },
   {
     "locationUrl": "https://goo.gl/maps/cmSD26ju7zT554Vq6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_3.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_3.png",
     "body": "Concrete barriers replace medians from there onwards."
   },
   {
     "locationUrl": "https://goo.gl/maps/2CdSzDXQvj9PdXyg8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_4.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_4.png",
     "body": "South of Balykchy, road becomes undivided, surrounded by dry shrublands near Chu river, with cloudy skies and nearby mountains with clouds overhead."
   },
   {
     "locationUrl": "https://goo.gl/maps/GD3KuMoqhjL91Neu5",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Chu_River_valley.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Chu_River_valley.png",
     "body": "The dry Chu River valley features little vegetation aside from shrubs, flanked by mountains with a slightly snowy ridge to the north."
   },
   {
     "locationUrl": "https://goo.gl/maps/Ad23Tq2Fo9P6MKrdA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/A365_Section_5.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/A365_Section_5.png",
     "body": "Further south, the road passes more vegetated areas with snow-capped mountains and hilly terrain, including dry hills north of Naryn."
   },
   {
@@ -251,212 +251,212 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/JsH5jaXdshkJDCCt6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_9.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_9.png",
     "body": "Mountains and hills south of Naryn have a distinct mix of snow and red soil."
   },
   {
     "locationUrl": "https://goo.gl/maps/sf17iLfNnLtRr8t16",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_10.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-11_Section_10.png",
     "body": "At-Bashi Valley has a prominent southern mountain range, scattered northern mountains, and large western hills."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-09.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-09.png",
     "body": "EM-9 runs from Balykchy to Karakol with views of Lake Issyk Kul to the south, driving mostly east or south, featuring 3 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/zgKvvSEo1JBzY9Yi8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Sunny_Stretch_North_of_Issyk_Kul_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Sunny_Stretch_North_of_Issyk_Kul_2.png",
     "body": "Balykchy to Cholpon Ata features sunny weather, mountains north and lake south."
   },
   {
     "locationUrl": "https://goo.gl/maps/vxvuPh7xs1DBiMGY9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Overcast_Stretch_North_of_Issyk_Kul_3.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Overcast_Stretch_North_of_Issyk_Kul_3.png",
     "body": "East of Cholpon Ata has overcast conditions flanked by mountains and lake with tree rows beside the road."
   },
   {
     "locationUrl": "https://goo.gl/maps/6faQDekSZsixJmVBA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-9_Section_3_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-9_Section_3_v2.png",
     "body": "North of Karakol, road is flanked by tall trees and snowy mountains; weather changes around midpoint."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-10_.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-10_.png",
     "body": "EM-10, or A363, connects Karakol to Balykchy, with visible Issyk Kul lake to the north, driving west, with 5 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/aRpJvjWNevogpW5a8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_1_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_1_v2.png",
     "body": "West of Karakol, road is lined with vegetation and fields, Tian Shan mountains in the distance north and south; weather clear."
   },
   {
     "locationUrl": "https://goo.gl/maps/RXMjGdBB4g6LDMQy7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_2_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_2_v2.png",
     "body": "Issyk Kul lake and Tian Shan mountains are often visible; landscape is sandy and rocky."
   },
   {
     "locationUrl": "https://goo.gl/maps/7x9eDzL8BBMKfBLT8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_3_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_3_v2.png",
     "body": "West of Fairytale Canyon shows distinct sunset coverage."
   },
   {
     "locationUrl": "https://goo.gl/maps/coMHCn3EmFSWX7oLA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_4_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_4_v2.png",
     "body": "Mountains and hills to the south with some hills and Issyk Kul lake behind to the north; sandy road sides."
   },
   {
     "locationUrl": "https://goo.gl/maps/bFpV2h68sRFeqBXAA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_5_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_5_v2.png",
     "body": "Western Issyk Kul area is drier and further from the road."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-17.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-17.png",
     "body": "The EM-17 runs southeast of Talas, featuring 2 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/Suhi3uSvKR4pfNND6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-17_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-17_Section_1.png",
     "body": "EM-17 section is very snowy with deeply slushed snow and features the Black Dot Mirror."
   },
   {
     "locationUrl": "https://goo.gl/maps/xSeR9aFGwDqykyAs6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-17_Section_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-17_Section_2.png",
     "body": "Further west, only southern hills have snow; landscape dry, with hills to north and south; Black Dot Mirror present."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-13.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_EM-13.png",
     "body": "The EM-13 is a small gravel road with limited coverage, featuring 2 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/Uj14Jg8tniVbmoXu6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-13_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-13_Section_1.png",
     "body": "East of Kazarman, EM-13 is an unpaved gravel road between hilly ridges featuring a unique towering mountain on the ridge."
   },
   {
     "locationUrl": "https://goo.gl/maps/1n1UdHGtGykmWLGF9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM13_Section_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM13_Section_2.png",
     "body": "Eastern EM-13 resembles western Naryn road; unpaved in Naryn valley with bushes and shrubs, recognized by white and red fences with diamond shapes."
   },
   {
     "locationUrl": "https://goo.gl/maps/9yWLvn3G5xx86GkH8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/The_other_straight_road_west_of_naryn.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/The_other_straight_road_west_of_naryn.png",
     "body": "West of Naryn, the road lies south in dry valley with hills close on the south, wide plain north, and salt-and-pepper paved texture."
   },
   {
     "locationUrl": "https://goo.gl/maps/iZ8Ks4fCy2SguiG49",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Road_East_of_Naryn_Hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Road_East_of_Naryn_Hint.png",
     "body": "East Naryn road in Naryn valley — hills close to road south, smaller plains north, unpaved parts and snow on hills parts."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-082.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-082.png",
     "body": "M-082 road covers from Song-Kul shore to southern mountains, includes 2 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/5zKjuwvrQ5eRqXxz9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Song-Kul_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Song-Kul_hint.png",
     "body": "Song-Kul is Kazakhstan's second major lake, with dry rolling hills and patches of snow. Covered roads are gravel."
   },
   {
     "locationUrl": "https://goo.gl/maps/npuo7xZ54yvEbiZq8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Mountains_South_of_Song-Kul_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Mountains_South_of_Song-Kul_hint.png",
     "body": "Road south of Song-Kul is unpaved at high elevation with snowy rugged peaks and spruce trees."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-118.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-118.png",
     "body": "M-118 runs from ski resort Arslanbob to Fergana Valley, includes 2 tips."
   },
   {
     "locationUrl": "https://goo.gl/maps/yj8DH37EZbjejhYr6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M118_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M118_Section_1.png",
     "body": "M-118 road features Kara Darya river in valley, is hilly and green with snow-topped distant mountains."
   },
   {
     "locationUrl": "https://goo.gl/maps/Fcgam9bbDfLNVWP6A",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M118_Section_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M118_Section_2.png",
     "body": "M118 often has snow on ground, with Babash-Ata mountain visible north, featuring Southern Dirty Mirror coverage."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-107.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-107.png",
     "body": "M-107 is a road connecting Taskomur to Kerben; only first half covered, includes 2 tips."
   },
   {
     "locationUrl": "https://www.google.com/maps/@?api=1&fov=77.80108317605736&heading=37.83679899912974&map_action=pano&pano=O1svmzmxARmX70GY67y4nA&pitch=6.816902315879233&viewpoint=41.452917%2C72.224167#extra%5BloadMode%5D=latLng",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M-107_Section_1_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M-107_Section_1_1.png",
     "body": "M-107 section is dry and rocky with a distinctive ridge visible throughout."
   },
   {
     "locationUrl": "https://www.google.com/maps/@?api=1&fov=133.1640120049908&heading=255.60459100666864&map_action=pano&pano=shutufqEFrmTRCQJ7Q5Afw&pitch=-1.9046616095099296&viewpoint=41.518579%2C72.208936#extra%5BloadMode%5D=latLng",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M-107_Section_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/M-107_Section_2.png",
     "body": "Further west, M-107 passes through a hilly lush vegetated landscape with concrete barrier guardrails."
   },
   {
     "locationUrl": null,
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-Arkit.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_M-Arkit.png",
     "body": "A unique road to Sary-Chelel Lake with 2 tips, featuring vegetation, poor road condition, clouds, and dead trees near Arkit."
   },
   {
     "locationUrl": "https://goo.gl/maps/daGVdSMq2oAsmEdp7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arkit_road_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arkit_road_Section_1.png",
     "body": "This valley road is surrounded by buildings, dense vegetation, potholes, and darker clouds near Arkit."
   },
   {
     "locationUrl": "https://goo.gl/maps/PrmVU6p2DaNoCGec8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arkit_Snow_v2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Arkit_Snow_v2.png",
     "body": "Near Arkit, abundant snow and broad-leafed trees mark a distinct landscape paired with the south to north driving direction."
   },
   {
     "locationUrl": "https://goo.gl/maps/snazjotiFxJAz2Mh9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_1_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-10_Section_1_2.png",
     "body": "M-010 section bordered by spruce covered snowy mountains with snow along road sides."
   },
   {
     "locationUrl": "https://www.google.com/maps/@42.6578112,74.6860516,3a,75y,170.26h,90t/data=!3m6!1e1!3m4!1s_XSkijh_Tag0IzzncaylWw!2e0!7i13312!8i6656?entry=ttu",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Squiggle_Road_Section_1_2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Squiggle_Road_Section_1_2.png",
     "body": "A rocky dirt road to Chunkurchak is high up in snowy hills with red-tinted soil and red-and-white bollards."
   },
   {
     "locationUrl": "https://www.google.com/maps/@42.6578112,74.6860516,3a,75y,170.26h,90t/data=!3m6!1e1!3m4!1s_XSkijh_Tag0IzzncaylWw!2e0!7i13312!8i6656?entry=ttu",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Straight_Road_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Straight_Road_Section_1.png",
     "body": "Another road to the east of Chunkurchak passes through a rocky valley with snow and sparse vegetation."
   },
   {
     "locationUrl": "https://www.google.com/maps/@?api=1&fov=133.1640120049908&heading=318.6183659402112&map_action=pano&pano=8owpW0jjRuSinxFSBU9ggg&pitch=0.4227225653269784&viewpoint=42.192924%2C73.948891#extra%5BloadMode%5D=latLng",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-18_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-18_Section_1.png",
     "body": "Road A367 features snow-covered mountain ranges, bright southern sun, and south to north driving with the Black Dot Mirror."
   },
   {
     "locationUrl": "https://www.google.com/maps/@?api=1&fov=133.1640120049908&heading=322.2761&map_action=pano&pano=TrXQX2EyXb9iSNv3SKkPVQ&pitch=0&viewpoint=42.976095%2C74.447178#extra%5BloadMode%5D=latLng",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM14_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM14_Section_1.png",
     "body": "Divided road north of Bishkek leading to the airport has unique yellow and black median curbs, some trees, and poles painted red and yellow at the base."
   },
   {
     "locationUrl": "https://goo.gl/maps/uH9KEtRK7HKEAMQD7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM01_Section_1.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM01_Section_1.png",
     "body": "A slightly northeast-bound road north of Bishkek is recognizable from regular sunset coverage."
   },
   {
     "locationUrl": "https://goo.gl/maps/QDda9P8n2WNxh5JK7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Jeti_Oguz_road_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Jeti_Oguz_road_hint.png",
     "body": "The road south of Jeti Oguz runs through a very green valley featuring unique orange rock formations, scattered snow, and visibility of Tian Shan mountains north and snowy mountains south."
   },
   {
     "locationUrl": "https://goo.gl/maps/DgDiiAeaWLNCM6z28",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Spruces.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Spruces.png",
     "body": "Road north of Grigorievka passes through a rocky valley covered by spruce trees and sinuous pine forests, with little snow."
   },
   {
     "locationUrl": "https://goo.gl/maps/WoEAi3psunKY6rys9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-23.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/EM-23.png",
     "body": "Side road north of Orto Tokoy Reservoir runs through dry mountains with sparse grass and shrubs, features a nearby mountain with little snow and a reservoir."
   },
   {
     "locationUrl": "https://goo.gl/maps/xffnYSZw4FU8MCBBA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Sandy_Valley_.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/kyrgyzstan/Sandy_Valley_.png",
     "body": "Remote gravel road southwest of Naryn lies in a dry, desolate valley with rocky cliff-sided mountains, scattered shrubs, and some southern snow."
   }
 ]

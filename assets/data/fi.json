@@ -216,57 +216,57 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/7y1Nmpkvd2eWRout6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Helsinki_Tram_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Helsinki_Tram_hint.png",
     "body": "<b>Helsinki's trams</b> are uniquely <b>green-and-yellow</b>, whereas Tampere's trams are red."
   },
   {
     "locationUrl": "https://goo.gl/maps/xknHdBhrPbkQApai9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Helsinki_Bus_Hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Helsinki_Bus_Hint.png",
     "body": "<b>Helsinki's buses</b> are typically <b>blue-and-white split vertically</b> and identifiable by specific logos."
   },
   {
     "locationUrl": "https://goo.gl/maps/q2ayfibHqMgDJHW18",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Tampere_Bus_Hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Tampere_Bus_Hint.png",
     "body": "Tampere’s buses are <b>blue on bottom, white on top</b> with <b>'NYSSE'</b> written on the sides."
   },
   {
     "locationUrl": "https://goo.gl/maps/3FQH9tCWH5x2vDmb7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Turku_buses_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Turku_buses_hint.png",
     "body": "Turku's buses are uniquely <b>yellow with white rears</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/AyDKDhF1jwaSB3wp6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/fi_jyvaskylabus.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/fi_jyvaskylabus.png",
     "body": "<b>Jyvaskyla's buses</b> are almost entirely <b>green</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/tRGuxWEUm6YsVCX49",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/fi_oulubus.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/fi_oulubus.png",
     "body": "<b>Oulu’s buses</b> have a distinctive <b>pink front</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/gMFdwb7keaPbDF1R9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Tampere_Plates_meta.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Tampere_Plates_meta.png",
     "body": "Tampere features unique <b>metallic plates</b> on houses, lampposts, and signposts."
   },
   {
     "locationUrl": "https://www.google.com/maps/@62.7877432,22.8508062,3a,15y,135.57h,96.69t/data=!3m6!1e1!3m4!1spX9GTrVIufDsNQ_i14b9xw!2e0!7i16384!8i8192",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/fi_seinajoki.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/fi_seinajoki.png",
     "body": "Unique <b>blue street signs with white text</b> are used in <b>Seinäjoki and Isokyrö</b>, southeast of Vaasa."
   },
   {
     "locationUrl": "https://goo.gl/maps/Do2Y4kGqzrNknYpz7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Lahti_Streetsign.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Lahti_Streetsign.png",
     "body": "<b>Lahti</b> has street signs with a <b>black border and all capital letters</b>, mostly unique except some in Kuopio with thicker fonts."
   },
   {
     "locationUrl": "https://goo.gl/maps/r41bjEPRoENaCq5F6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Kerava_Signs_Hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Kerava_Signs_Hint.png",
     "body": "<b>Kerava</b> uses street signs featuring a <b>blue and yellow coat of arms</b> in the top-left corner."
   },
   {
     "locationUrl": "https://goo.gl/maps/ZpZyq1sbkbyYdo5y7",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/finland/Kerava_sign_hint.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/finland/Kerava_sign_hint.png",
     "body": "<b>Järvenpää</b> street signs show a <b>blue and grey coat of arms</b> top-left with neighborhood names above street names; unknown coat of arms likely indicates proximity to Kerava or Lahti."
   }
 ]

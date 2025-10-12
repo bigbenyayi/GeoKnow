@@ -226,22 +226,22 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/n4NFGyuEbMd3eZ5o9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/united-kingdom/LONDON.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/united-kingdom/LONDON.png",
     "body": "<b>London street signs</b> are distinctive, showing the street name in black with postcode and borough in red."
   },
   {
     "locationUrl": "https://goo.gl/maps/fYh1ippFVPjHgUGi9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/united-kingdom/e_car.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/united-kingdom/e_car.png",
     "body": "Some Generation 4 coverage in London was captured by a <b>white electric vehicle</b> with a distinct rear; similar cars appear in Dublin and Germany."
   },
   {
     "locationUrl": "https://goo.gl/maps/tqnE1u1nvuVmJBFM6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/united-kingdom/aa231.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/united-kingdom/aa231.png",
     "body": "<b>Birmingham's poles and signposts</b> mostly have <b>yellow tape or paint</b>, with lampposts usually bearing yellow stickers."
   },
   {
     "locationUrl": "https://goo.gl/maps/hy8fs9hok8SKFGNx9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/united-kingdom/uk_twentysplenty.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/united-kingdom/uk_twentysplenty.png",
     "body": "<b>‘Twenty’s Plenty’ speed signs</b> with green borders are common in and around <b>Glasgow</b>."
   }
 ]

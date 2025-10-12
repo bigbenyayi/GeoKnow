@@ -261,22 +261,22 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/6M3wWGiub6J1Yj4E8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/norway/no_bergenfirehydrant.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/norway/no_bergenfirehydrant.png",
     "body": "<b>Bergen</b> has a specific design of <b>green fire hydrants</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/PQvtKwuVJVgxo3STA",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/norway/no_russianborder.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/norway/no_russianborder.png",
     "body": "The <b>Russian border</b> area features <b>humid, green roads</b> with overcast or foggy coverage, and low thin birch and pine trees."
   },
   {
     "locationUrl": "https://goo.gl/maps/xVDBDXAGth3ziLhJ6",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/norway/no_russian.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/norway/no_russian.png",
     "body": "<b>Russian language</b> occasionally appears on signs near the border along E6 and E105 near Kirkenes."
   },
   {
     "locationUrl": "https://goo.gl/maps/1N2u7FDANtvaepAi8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/norway/no_roros.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/norway/no_roros.png",
     "body": "<b>Røros</b> is notable for its <b>densely built traditional wooden architecture</b>."
   }
 ]

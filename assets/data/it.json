@@ -251,17 +251,17 @@
   },
   {
     "locationUrl": "https://goo.gl/maps/QuxTR8pE9NKvqXNA9",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/taly/it_vulcano.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/taly/it_vulcano.png",
     "body": "<b>Vulcano</b> is recognizable by its volcano with an <b>almost white dirt stripe along the mountainside</b>, visible from afar."
   },
   {
     "locationUrl": "https://goo.gl/maps/4hNDmXjPPo8HPXsM8",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/taly/it_favignana.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/taly/it_favignana.png",
     "body": "<b>Favignana</b> has a <b>distinct north-south mountain range</b> splitting the island, flat areas with rock walls like Bari, and is <b>non-volcanic</b>."
   },
   {
     "locationUrl": "https://www.google.com/maps/@42.1157683,15.4905308,3a,90y,309.86h,84.17t/data=!3m6!1e1!3m4!1sMEHsBMdKG1EPpRxoBfGMgg!2e0!7i13312!8i6656",
-    "imageImage": "https://www.plonkit.net/images/resize/600/80/taly/it_sandomino.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/taly/it_sandomino.png",
     "body": "<b>San Domino island</b> has only <b>overcast Generation 2 coverage</b>, giving it a generally gloomy appearance."
   }
 ]
