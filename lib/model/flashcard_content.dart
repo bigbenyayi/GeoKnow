@@ -17,6 +17,8 @@ class FlashcardContent {
 
   String get body => '<div style="text-align: center">$_body</div>';
 
+  bool get hasBody => _body.isNotEmpty;
+
   String? get locationUrl => _locationUrl;
 
   String get imageUrl => _imageUrl;

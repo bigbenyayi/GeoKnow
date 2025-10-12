@@ -25,35 +25,68 @@ class FlashcardDesign extends StatelessWidget {
     return Flashcard(
       flag: _flag,
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
-              child: GestureDetector(
-                onTap: () async {
-                  if (_flashcard.locationUrl != null) {
-                    await launchUrl(Uri.parse(_flashcard.locationUrl!), mode: LaunchMode.externalApplication);
-                  }
-                },
-                child: OctoImage(
-                  image: CachedNetworkImageProvider(_flashcard.imageUrl),
-                  errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+          if (_flashcard.hasBody) ...<Widget>[
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
+                child: GestureDetector(
+                  onTap: () async {
+                    if (_flashcard.locationUrl != null) {
+                      await launchUrl(Uri.parse(_flashcard.locationUrl!), mode: LaunchMode.externalApplication);
+                    }
+                  },
+                  child: OctoImage(
+                    image: CachedNetworkImageProvider(_flashcard.imageUrl),
+                    errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                  ),
                 ),
               ),
             ),
-          ),
-          Expanded(
-            child: Center(
-              child: SingleChildScrollView(
-                child: HtmlWidget(
-                  _flashcard.body,
-                  textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+            Expanded(
+              child: Center(
+                child: SingleChildScrollView(
+                  child: HtmlWidget(
+                    _flashcard.body,
+                    textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+                  ),
                 ),
               ),
             ),
-          ),
+          ] else ...<Widget>[
+            ...List<Widget>.generate(4, (int index) {
+              return Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 0.0),
+                  child: GestureDetector(
+                    onTap: () async {
+                      if (_flashcard.locationUrl != null) {
+                        await launchUrl(
+                          Uri.parse(_flashcard.locationUrl!),
+                          mode: LaunchMode.externalApplication,
+                        );
+                      }
+                    },
+                    child: ClipRect(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        widthFactor: 0.25, // always show 1/4 of the width
+                        child: FractionalTranslation(
+                          translation: Offset(-index * 0.25, 0), // shift left by n quarters
+                          child: OctoImage(
+                            image: CachedNetworkImageProvider(_flashcard.imageUrl),
+                            fit: BoxFit.cover,
+                            errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              );
+            }),
+          ]
         ],
       ),
     );
