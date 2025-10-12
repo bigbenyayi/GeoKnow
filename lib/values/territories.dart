@@ -1,5 +1,3 @@
-// ignore_for_file: missing_whitespace_between_adjacent_strings
-import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/model/territory.dart';
 
 

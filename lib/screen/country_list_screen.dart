@@ -13,7 +13,7 @@ class CountryListScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<Country> countries = Countries.countries.where((Country c) => c.continent == _continent).toList();
+    final List<Country> countries = CountryEnum.getCountries(_continent);
     return Scaffold(
       appBar: CustomAppBar(title: _continent.readableName),
       body: GridView.builder(

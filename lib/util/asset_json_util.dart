@@ -7,6 +7,6 @@ class AssetJsonUtil {
   static Future<List<FlashcardContent>> loadFlashcards({required String countryCode}) async {
     final String jsonString = await rootBundle.loadString('assets/data/$countryCode.json');
     final List<dynamic> jsonList = jsonDecode(jsonString);
-    return jsonList.map((json) => FlashcardContent.fromJson(json)).toList();
+    return jsonList.map((dynamic json) => FlashcardContent.fromJson(json)).toList();
   }
 }

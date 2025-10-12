@@ -1,6 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/presentation/flashcard.dart';
@@ -47,7 +46,7 @@ class FlashcardDesign extends StatelessWidget {
                 ),
               ),
             ),
-            if (_flashcard.hasBody) ...[
+            if (_flashcard.hasBody) ...<Widget>[
               Expanded(
                 child: Center(
                   child: SingleChildScrollView(
