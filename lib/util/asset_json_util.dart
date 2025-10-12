@@ -61,6 +61,33 @@ class SharedPrefsHelper {
     await saveCountryValues(isoCode, currentValues);
   }
 
+  /// Remove a favorite by its global index across *all* countries.
+  ///
+  /// Example:
+  ///   If you have:
+  ///     { "jo": [0, 2], "za": [1, 5, 6] }
+  ///   Then global favorites = [("jo",0), ("jo",2), ("za",1), ("za",5), ("za",6)]
+  ///   Calling removeGlobalFavorite(3) removes ("za",5)
+  static Future<void> removeGlobalFavorite(int globalIndex) async {
+    final Map<String, List<int>> allFavorites = await getAllFavorites();
+
+    // Expand to a flat list of pairs (isoCode, index)
+    final List<MapEntry<String, int>> flatList = allFavorites.entries
+        .expand((MapEntry<String, List<int>> entry) => entry.value.map((int i) => MapEntry(entry.key, i)))
+        .toList();
+
+    if (globalIndex < 0 || globalIndex >= flatList.length) {
+      return;
+    }
+
+    // Identify the country and index to remove
+    final String isoCode = flatList[globalIndex].key;
+    final int localIndex = flatList[globalIndex].value;
+
+    // Remove from that country's stored list
+    await removeCountryValue(isoCode, localIndex);
+  }
+
   /// Clear all data for one country.
   static Future<void> clearCountryData(String isoCode) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -122,7 +149,7 @@ class SharedPrefsHelper {
   static Future<List<FlashcardContent>> loadAllFavoriteFlashcards() async {
     final Map<String, List<int>> allFavorites = await SharedPrefsHelper.getAllFavorites();
 
-    final List<FlashcardContent> favorites = [];
+    final List<FlashcardContent> favorites = <FlashcardContent>[];
 
     for (final String isoCode in allFavorites.keys) {
       // Load the full flashcard list for this country

@@ -20,6 +20,7 @@ class FavoriteScreen extends StatefulWidget {
 class _FavoriteScreenState extends State<FavoriteScreen> {
   final ValueNotifier<int> _index = ValueNotifier<int>(0);
   final ValueNotifier<bool> _isFavorite = ValueNotifier<bool>(false);
+  final CardSwiperController _controller = CardSwiperController();
 
   List<FlashcardContent>? _flashcards;
 
@@ -34,12 +35,15 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
     final List<FlashcardContent> cards = await SharedPrefsHelper.loadAllFavoriteFlashcards();
     if (widget._continent != null) {
       cards.retainWhere(
-              (FlashcardContent card) => CountryEnum.fromIsoCode(card.isoCode).continent == widget._continent);
+          (FlashcardContent card) => CountryEnum.fromIsoCode(card.isoCode).continent == widget._continent);
     }
     setState(() {
       _flashcards = cards;
+      if (_index.value >= cards.length) {
+        return;
+      }
       if (cards.isNotEmpty) {
-        _isFavorite.value = cards.first.isFavorite;
+        _isFavorite.value = cards[_index.value].isFavorite;
       } else {
         _isFavorite.value = false;
       }
@@ -55,19 +59,11 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
     if (currentIndex < _flashcards!.length) {
       _flashcards![currentIndex] = _flashcards![currentIndex].copyWith(isFavorite: _isFavorite.value);
     }
-
-    // Save in SharedPrefs
-    if (_isFavorite.value) {
-      await SharedPrefsHelper.addCountryValue(
-        _flashcards![_index.value].isoCode,
-        _index.value,
-      );
-    } else {
-      await SharedPrefsHelper.removeCountryValue(
-        _flashcards![_index.value].isoCode,
-        _index.value,
-      );
-    }
+    _controller.swipe(CardSwiperDirection.bottom);
+    _index.value = _flashcards!.length - 1 < _index.value ? _index.value++ : 0;
+    _flashcards!.removeAt(currentIndex);
+    await SharedPrefsHelper.removeGlobalFavorite(currentIndex);
+    _loadFlashcards();
   }
 
   @override
@@ -88,7 +84,9 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
               Icon(Icons.favorite_border, size: 80.0, color: Theme.of(context).primaryColor.withValues(alpha: .3)),
               const SizedBox(height: 16.0),
               Text(
-                widget._continent != null ? 'No favorites in ${widget._continent!.readableName}.' : 'No favorites.',
+                widget._continent != null
+                    ? 'No favorites in ${widget._continent!.readableName}.'
+                    : 'No favorites.',
                 style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600),
                 textAlign: TextAlign.center,
               ),
@@ -99,6 +97,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
     }
 
     final CountryEnum countryEnum = CountryEnum.fromIsoCode(_flashcards![_index.value].isoCode);
+    final FlashcardContent flashcard = _flashcards![_index.value];
     return Scaffold(
       appBar: CustomAppBar(
         title: countryEnum.name,
@@ -120,7 +119,14 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
         children: <Widget>[
           Flexible(
             flex: 10,
-            child: CardSwiper(
+            child: _flashcards!.length == 1
+                ? FlashcardDesign(
+                    flag: countryEnum.toCountry.flag,
+                    flashcard: flashcard,
+                    isFirst: false,
+                  )
+                : CardSwiper(
+                    controller: _controller,
               cardsCount: _flashcards!.length,
               padding: const EdgeInsets.only(top: 64.0),
               onSwipe: (int oldIndex, int? newIndex, _) {
@@ -132,6 +138,9 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
                 return true;
               },
               cardBuilder: (BuildContext context, int index, int x, int y) {
+                if (index >= _flashcards!.length) {
+                  return const SizedBox();
+                }
                 final FlashcardContent flashcard = _flashcards![index];
                 final String flag = CountryEnum.fromIsoCode(_flashcards![index].isoCode).toCountry.flag;
                 return FlashcardDesign(
