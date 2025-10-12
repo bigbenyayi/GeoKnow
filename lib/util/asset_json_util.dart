@@ -11,7 +11,8 @@ class AssetJsonUtil {
   static Future<List<FlashcardContent>> loadFlashcards({required String countryCode}) async {
     final String jsonString = await rootBundle.loadString('assets/data/$countryCode.json');
     final List<dynamic> jsonList = jsonDecode(jsonString);
-    final List<FlashcardContent> flashcards = jsonList.map((dynamic json) => FlashcardContent.fromJson(json)).toList();
+    final List<FlashcardContent> flashcards =
+        jsonList.map((dynamic json) => FlashcardContent.fromJson(json, countryCode)).toList();
     final List<int> countryValues = await SharedPrefsHelper.getCountryValues(countryCode);
 
     final List<FlashcardContent> result = <FlashcardContent>[...flashcards];
@@ -117,5 +118,30 @@ class SharedPrefsHelper {
 
     return grouped;
   }
-}
 
+  static Future<List<FlashcardContent>> loadAllFavoriteFlashcards() async {
+    final Map<String, List<int>> allFavorites = await SharedPrefsHelper.getAllFavorites();
+
+    final List<FlashcardContent> favorites = [];
+
+    for (final String isoCode in allFavorites.keys) {
+      // Load the full flashcard list for this country
+      final String jsonString = await rootBundle.loadString('assets/data/$isoCode.json');
+      final List<dynamic> jsonList = jsonDecode(jsonString);
+
+      final List<FlashcardContent> flashcards =
+          jsonList.map((dynamic json) => FlashcardContent.fromJson(json, isoCode)).toList();
+
+      // Keep only the favorited ones
+      for (final int index in allFavorites[isoCode]!) {
+        if (index >= 0 && index < flashcards.length) {
+          favorites.add(
+            flashcards[index].copyWith(isFavorite: true, isoCode: isoCode),
+          );
+        }
+      }
+    }
+
+    return favorites;
+  }
+}

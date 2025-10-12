@@ -155,4 +155,12 @@ enum CountryEnum {
         .map((CountryEnum country) => Country(name: country.name, isoCode: country.isoCode, continent: country.continent))
         .toList();
   }
+
+  Country get toCountry {
+    return Country(name: name, isoCode: isoCode, continent: continent);
+  }
+
+  static CountryEnum fromIsoCode(String isoCode) {
+    return CountryEnum.values.firstWhere((CountryEnum country) => country.isoCode == isoCode);
+  }
 }
