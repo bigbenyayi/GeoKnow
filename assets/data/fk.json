@@ -7,36 +7,36 @@
   {
     "locationUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Location_map_of_the_Falklands_%E2%80%93_Alternative_version_4.svg/1280px-Location_map_of_the_Falklands_%E2%80%93_Alternative_version_4.svg.png",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/1280px-Location_map_of_the_Falklands__E2_80_93_Alternative_version_4.svg.png",
-    "body": "The Falkland Islands are a British Overseas Territory east of the Tierra del Fuego Province of Argentina. As such, for country streaks purposes, it is counted as the UK. Coverage is very limited: there are only a couple of Generation 3 trekkers. The trekkers are all located on and around three islands in the western part of the territory: Carcass Island West Point Island New Island Due to the sparse nature of the coverage, that is also entirely not on any streets, it is not useful to learn any territory identification metas. Instead, it is better to just memorise what the trekkers look like."
+    "body": "The Falkland Islands are a <b>British Overseas Territory</b> east of Tierra del Fuego, counted as the UK in country streaks, with very limited <b>Generation 3 trekker coverage</b> on three western islands: Carcass, West Point, and New Island."
   },
   {
     "locationUrl": "https://goo.gl/maps/b3Dro8BA9QT1UhQr9",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_Carcass_Island.png",
-    "body": "The Carcass Island trekker can be recognized by theopen plains, with the ocean clearly visible. The ground may also get rocky. NOTE:Do not get this confused with the Faroe Islands trekker."
+    "body": "The Carcass Island trekker shows <b>open plains with visible ocean</b> and possibly rocky ground."
   },
   {
     "locationUrl": "https://goo.gl/maps/8wZdNvZ4BWe9ewUp7",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_West_Point_Island.png",
-    "body": "Open plains withslightly yellow grasscan be seen on West Point Island. The ocean will not be clearly visible on this trekker."
+    "body": "West Point Island features <b>open plains with slightly yellow grass</b>, but the ocean is not clearly visible on the trekker."
   },
   {
     "locationUrl": "https://goo.gl/maps/VgNNhDfA3pJQpohR7",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_West_Point_Boat.png",
-    "body": "Thisboat trekkercan be seen in the West Point Bay, with yellow hills in the distance with the MS National Geographic Explorer in the bay with the trekker."
+    "body": "A <b>boat trekker</b> in West Point Bay shows yellow hills in the distance along with the MS National Geographic Explorer in the bay."
   },
   {
     "locationUrl": "https://goo.gl/maps/67ENwgrMULMYYUcv6",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_New_Island_Beach.png",
-    "body": "Thissandy beachwith other people in red and blue jackets can be seen on New Island."
+    "body": "New Island has a <b>sandy beach</b> where people wearing red and blue jackets can sometimes be seen."
   },
   {
     "locationUrl": "https://goo.gl/maps/g4c98CFw5MHgU15BA",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_New_Island_Brown_Soil.png",
-    "body": "Inland New Island can be recognized by thedark brown soil. Tire tracks may also be visible."
+    "body": "Inland New Island is recognizable by <b>dark brown soil</b> and visible tire tracks."
   },
   {
     "locationUrl": "https://goo.gl/maps/vGxi34vi9qFJedpZ6",
     "imageUrl": "https://www.plonkit.net/images/resize/600/80/falkland-islands/Falklands_New_Island_Cliffs.png",
-    "body": "Distinctsteep cliffscan be seen on New Island."
+    "body": "New Island features <b>distinct steep cliffs</b>."
   }
 ]
