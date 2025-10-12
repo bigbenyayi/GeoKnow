@@ -8,7 +8,6 @@ import 'package:geo_know/presentation/image_error_widget.dart';
 import 'package:octo_image/octo_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-
 class FlashcardDesign extends StatelessWidget {
   final String _flag;
   final FlashcardContent _flashcard;
@@ -17,7 +16,8 @@ class FlashcardDesign extends StatelessWidget {
     super.key,
     required String flag,
     required FlashcardContent flashcard,
-  })  : _flashcard = flashcard,
+  })
+      : _flashcard = flashcard,
         _flag = flag;
 
   @override
@@ -88,22 +88,6 @@ class FlashcardDesign extends StatelessWidget {
             }),
           ]
         ],
-      ),
-    );
-  }
-
-  Widget blurHashPlaceholderBuilder(
-    String hash, {
-    BoxFit? fit,
-    Text? message,
-    IconData? icon,
-    Color? iconColor,
-    double? iconSize,
-  }) {
-    return SizedBox.expand(
-      child: Image(
-        image: BlurHashImage(hash),
-        fit: fit ?? BoxFit.cover,
       ),
     );
   }
