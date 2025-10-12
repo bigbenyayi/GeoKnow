@@ -44,7 +44,7 @@ class _TerritoryScreenState extends State<TerritoryScreen> {
                   },
                   cardBuilder: (BuildContext context, int index, int x, int y) {
                     final FlashcardContent flashcard = flashcards[index];
-                    return FlashcardDesign(flag: widget._territory.flag, flashcard: flashcard);
+                    return FlashcardDesign(flag: widget._territory.flag, flashcard: flashcard, isFirst: index == 0);
                   },
                 ),
               ),

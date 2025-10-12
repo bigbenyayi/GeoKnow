@@ -11,14 +11,17 @@ import 'package:url_launcher/url_launcher.dart';
 class FlashcardDesign extends StatelessWidget {
   final String _flag;
   final FlashcardContent _flashcard;
+  final bool _isFirst;
 
   const FlashcardDesign({
     super.key,
     required String flag,
     required FlashcardContent flashcard,
-  })
-      : _flashcard = flashcard,
-        _flag = flag;
+    required bool isFirst,
+  })  : _flashcard = flashcard,
+        _flag = flag,
+        _isFirst = isFirst;
+
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +30,7 @@ class FlashcardDesign extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          if (_flashcard.hasBody) ...<Widget>[
+          if (_flashcard.hasBody || !_isFirst) ...<Widget>[
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, .0),
@@ -44,16 +47,18 @@ class FlashcardDesign extends StatelessWidget {
                 ),
               ),
             ),
-            Expanded(
-              child: Center(
-                child: SingleChildScrollView(
-                  child: HtmlWidget(
-                    _flashcard.body,
-                    textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+            if (_flashcard.hasBody) ...[
+              Expanded(
+                child: Center(
+                  child: SingleChildScrollView(
+                    child: HtmlWidget(
+                      _flashcard.body,
+                      textStyle: const TextStyle(color: Color(0xff333333), fontSize: 16.0),
+                    ),
                   ),
                 ),
               ),
-            ),
+            ],
           ] else ...<Widget>[
             ...List<Widget>.generate(4, (int index) {
               return Expanded(

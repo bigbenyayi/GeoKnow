@@ -1,62 +1,62 @@
 [
   {
     "locationUrl": null,
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/tatic/plonk-it-small.webp",
+    "imageUrl": "https://www.plonkit.net/images/resize/900/80/macau/summary_macau.png",
     "body": ""
   },
   {
-    "locationUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Macau_locator_map.svg/1205px-Macau_locator_map.svg.png",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/countrystreakreminder.svg.png",
+    "locationUrl": null,
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/countrystreakreminder.svg.png",
     "body": "Macau is a <b>Special Administrative Region</b> of <b>China</b>, so for country streaks purposes, it is counted as China."
   },
   {
     "locationUrl": "https://goo.gl/maps/sWL4TAdQtBHrmt8i8",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/gen2.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/gen2.png",
     "body": "Coverage in Macau is limited to <b>Generation 2</b>, which results in lower camera quality, a circular blur, and colors that appear <b>washed out</b> and overexposed. This distinctive look can be a key identifier for Macau."
   },
   {
     "locationUrl": null,
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Licence_Plates.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Licence_Plates.png",
     "body": "Macau uses <b>black</b> licence plates with <b>white</b> text. The plates can be either long or square."
   },
   {
     "locationUrl": "https://goo.gl/maps/ju7iHWF8ireQLBRK8",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/lamppost.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/lamppost.png",
     "body": "Cylindrical grey lamp posts with a <b>black painted bottom</b> are common in Macau. This distinguishes them from similar lamp posts in Hong Kong, which do not have the black painted bottom."
   },
   {
     "locationUrl": "https://goo.gl/maps/dTagWVtXj5i8ZH2f9",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/chinese_portuguese.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/chinese_portuguese.png",
     "body": "Due to Macau's history as a Portuguese colony, the <b>Portuguese language</b> is commonly seen on storefronts and signs, alongside Chinese."
   },
   {
     "locationUrl": "https://goo.gl/maps/1Niz7edXudqih1qr5",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/streetsigns.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/streetsigns.png",
     "body": "The unique <b>white street signs</b> with a <b>blue border</b> around the Chinese and Portuguese text are a distinctive feature of Macau."
   },
   {
     "locationUrl": "https://goo.gl/maps/s8H2z59BDDiAMzY69",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Gambling.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Gambling.png",
     "body": "<b>Gambling</b> is a major industry in Macau, so you will see many extravagant and kitschy <b>casinos</b>. Because of the old Generation 2 coverage, many newer casinos may appear to be <b>under construction</b>."
   },
   {
     "locationUrl": "https://goo.gl/maps/BgZnxvPfVdhPqbYd6",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Dense.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Dense.png",
     "body": "The northern part of Macau is characterized by dense <b>apartment buildings</b>, narrow gridded streets, and cars parked on both sides."
   },
   {
     "locationUrl": "https://goo.gl/maps/2rXTjyffftw4wB7H8",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Rural.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Rural.png",
     "body": "In the south of Macau, you can find a <b>hilly, rural</b> region with narrow, winding roads. The washed-out early <b>Generation 2</b> coverage can be a key clue for identification in this less-cluttered area."
   },
   {
     "locationUrl": "https://goo.gl/maps/sAD84yjBikdeBBAQA",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Sai_Van_Bridge.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Sai_Van_Bridge.png",
     "body": "The <b>Sai Van Bridge</b> can be identified by its unique <b>cuboid towers</b> with arches in them."
   },
   {
     "locationUrl": "https://goo.gl/maps/QBF8uRmGzn2Fmiyu8",
-    "imageUrl": "https://www.plonkit.net/images/resize/600/80/cau/Amizade_Bridge.png",
+    "imageUrl": "https://www.plonkit.net/images/resize/600/80/macau/Amizade_Bridge.png",
     "body": "The <b>Amizade Bridge</b> is recognizable by its distinctive <b>red guardrails</b>."
   }
 ]
