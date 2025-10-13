@@ -39,9 +39,20 @@ class FlashcardDesign extends StatelessWidget {
                       await launchUrl(Uri.parse(_flashcard.locationUrl!), mode: LaunchMode.externalApplication);
                     }
                   },
-                  child: OctoImage(
-                    image: CachedNetworkImageProvider(_flashcard.imageUrl),
-                    errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                  child: Stack(
+                    children: <Widget>[
+                      OctoImage(
+                        image: CachedNetworkImageProvider(_flashcard.imageUrl),
+                        errorBuilder: (BuildContext context, __, ___) => const ImageErrorWidget(),
+                      ),
+                      Align(
+                        alignment: Alignment.topRight,
+                        child: Container(
+                          color: Colors.black.withValues(alpha: .2),
+                          child: const Text('© Data from plonkit.net', style: TextStyle(fontSize: 8)),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -59,6 +70,10 @@ class FlashcardDesign extends StatelessWidget {
               ),
             ],
           ] else ...<Widget>[
+            Container(
+              color: Colors.black.withValues(alpha: .2),
+              child: const Text('© Data from plonkit.net', style: TextStyle(fontSize: 8)),
+            ),
             ...List<Widget>.generate(4, (int index) {
               return Expanded(
                 child: Padding(
