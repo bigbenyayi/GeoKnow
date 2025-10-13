@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
 import 'package:geo_know/model/country.dart';
-import 'package:geo_know/model/territory.dart';
 import 'package:geo_know/presentation/custom_app_bar.dart';
 import 'package:geo_know/presentation/favorite_card.dart';
 import 'package:geo_know/presentation/territory_card.dart';
