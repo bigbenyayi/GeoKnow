@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658870845265",
+    "project_id": "geo-know",
+    "storage_bucket": "geo-know.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658870845265:android:b8e26027db20318d24dd70",
+        "android_client_info": {
+          "package_name": "com.example.geo_know"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtqEb7SoHotkJlLk0FbE7SMcH_lBtLCv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"geo-know","appId":"1:658870845265:android:b8e26027db20318d24dd70","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"geo-know","configurations":{"android":"1:658870845265:android:b8e26027db20318d24dd70","ios":"1:658870845265:ios:74482bd50fecf84524dd70"}}}}}}
