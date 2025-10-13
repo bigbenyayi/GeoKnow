@@ -73,7 +73,9 @@ class SharedPrefsHelper {
 
     // Expand to a flat list of pairs (isoCode, index)
     final List<MapEntry<String, int>> flatList = allFavorites.entries
-        .expand((MapEntry<String, List<int>> entry) => entry.value.map((int i) => MapEntry(entry.key, i)))
+        .expand((MapEntry<String, List<int>> entry) {
+          return entry.value.map((int i) => MapEntry<String, int>(entry.key, i));
+        })
         .toList();
 
     if (globalIndex < 0 || globalIndex >= flatList.length) {

@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
-import 'package:geo_know/model/country.dart';
-import 'package:geo_know/model/territory.dart';
-import 'package:geo_know/screen/territory_list_screen.dart';
-import 'package:geo_know/screen/territory_screen.dart';
-import 'package:geo_know/util/circle_flag.dart';
 
 class FavoriteCard extends StatelessWidget {
   final VoidCallback _onTap;

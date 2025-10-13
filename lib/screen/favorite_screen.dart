@@ -80,7 +80,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children: <Widget>[
               Icon(Icons.favorite_border, size: 80.0, color: Theme.of(context).primaryColor.withValues(alpha: .3)),
               const SizedBox(height: 16.0),
               Text(
