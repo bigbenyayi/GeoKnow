@@ -22,6 +22,7 @@ class Flashcard extends StatelessWidget {
       children: <Widget>[
         Container(
           height: 516.0,
+          width: 516.0,
           margin: const EdgeInsets.symmetric(horizontal: 24.0),
           decoration: const BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(32.0)),
@@ -45,6 +46,7 @@ class Flashcard extends StatelessWidget {
         ),
         Container(
           height: 500,
+          width: 500.0,
           padding: const EdgeInsets.all(8.0),
           margin: const EdgeInsets.symmetric(horizontal: 32.0),
           decoration: const BoxDecoration(
