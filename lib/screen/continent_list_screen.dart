@@ -117,7 +117,7 @@ class _Drawer extends StatelessWidget {
   final String _ayoAndroidUrl = 'https://play.google.com/store/apps/details?id=com.ayo.app';
   final String _ayoAppleUrl = 'https://apps.apple.com/us/app/ayo-messaging/id1634626905';
 
-  final String _androidUrl = 'https://play.google.com/store/apps/details?id=com.example.myapp';
+  final String _androidUrl = 'https://play.google.com/store/apps/details?id=com.ayo.geoknow';
   final String _appleUrl = 'https://apps.apple.com/app/id123456789';
 
   Future<void> _launchUrl(String url) async {
