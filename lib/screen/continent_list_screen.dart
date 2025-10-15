@@ -117,7 +117,7 @@ class _Drawer extends StatelessWidget {
   final String _ayoAndroidUrl = 'https://play.google.com/store/apps/details?id=com.ayo.app';
   final String _ayoAppleUrl = 'https://apps.apple.com/us/app/ayo-messaging/id1634626905';
 
-  final String _androidUrl = 'https://play.google.com/store/apps/details?id=com.ayo.geoknow';
+  final String _androidUrl = 'https://play.google.com/store/apps/developer?id=Ayo+Labs';
   final String _appleUrl = 'https://apps.apple.com/us/app/geoknow/id6753939511';
 
   Future<void> _launchUrl(String url) async {
@@ -162,8 +162,8 @@ class _Drawer extends StatelessWidget {
                   ),
                 ),
                 ListTile(
-                  leading: Icon(Icons.link, color: Theme.of(context).primaryColor),
-                  title: const Text('Check out Ayo'),
+                  leading: Icon(Platform.isAndroid ? Icons.apps : Icons.link, color: Theme.of(context).primaryColor),
+                  title: Text(Platform.isAndroid ? 'More apps from me' : 'Check out Ayo'),
                   onTap: () {
                     _openAppStore(playStore: _ayoAndroidUrl, appStore: _ayoAppleUrl);
                   },
