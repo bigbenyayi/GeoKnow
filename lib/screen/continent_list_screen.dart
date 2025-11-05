@@ -6,7 +6,7 @@ import 'package:geo_know/extension/continent_extension.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/presentation/territory_card.dart';
 import 'package:geo_know/screen/country_list_screen.dart';
-import 'package:geo_know/screen/quiz_screen.dart';
+import 'package:geo_know/screen/quiz_list_screen.dart';
 import 'package:geo_know/values/countries.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -306,7 +306,7 @@ class _Drawer extends StatelessWidget {
                       context,
                       MaterialPageRoute<void>(
                         builder: (BuildContext context) {
-                          return const QuizScreen();
+                          return const QuizListScreen();
                         },
                       ),
                     );

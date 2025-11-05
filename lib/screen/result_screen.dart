@@ -26,7 +26,10 @@ class _ResultScreenState extends State<ResultScreen> {
 
     final double ratio = widget._score / widget._total;
 
-    if (ratio >= 0.8) {
+    if (ratio == 1) {
+      _scoreColor = Colors.green.shade400;
+      _message = 'Perfect! 🔥';
+    }if (ratio >= 0.8) {
       _scoreColor = Colors.green.shade400;
       _message = 'Amazing! 🎉';
     } else if (ratio >= 0.5) {
