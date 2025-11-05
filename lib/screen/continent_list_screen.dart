@@ -6,6 +6,7 @@ import 'package:geo_know/extension/continent_extension.dart';
 import 'package:geo_know/model/country.dart';
 import 'package:geo_know/presentation/territory_card.dart';
 import 'package:geo_know/screen/country_list_screen.dart';
+import 'package:geo_know/screen/quiz_screen.dart';
 import 'package:geo_know/values/countries.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -296,6 +297,20 @@ class _Drawer extends StatelessWidget {
                       ),
                     ],
                   ),
+                ),
+                ListTile(
+                  leading: Icon(Icons.emoji_objects, color: Theme.of(context).primaryColor),
+                  title: const Text('Quiz yourself'),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder: (BuildContext context) {
+                          return const QuizScreen();
+                        },
+                      ),
+                    );
+                  },
                 ),
                 ListTile(
                   leading: Icon(Platform.isAndroid ? Icons.apps : Icons.link, color: Theme.of(context).primaryColor),
