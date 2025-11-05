@@ -3,11 +3,27 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:geo_know/enum/continent.dart';
 import 'package:geo_know/extension/continent_extension.dart';
+import 'package:geo_know/model/country.dart';
+import 'package:geo_know/presentation/territory_card.dart';
 import 'package:geo_know/screen/country_list_screen.dart';
+import 'package:geo_know/values/countries.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class ContinentListScreen extends StatelessWidget {
+class ContinentListScreen extends StatefulWidget {
   const ContinentListScreen({super.key});
+
+  @override
+  State<ContinentListScreen> createState() => _ContinentListScreenState();
+}
+
+class _ContinentListScreenState extends State<ContinentListScreen> {
+  final TextEditingController _controller = TextEditingController();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,8 +39,7 @@ class ContinentListScreen extends StatelessWidget {
                     icon: Icon(Icons.menu_rounded, color: Theme.of(context).primaryColor),
                     onPressed: () => Scaffold.of(context).openDrawer(),
                   );
-                }
-              ),
+                }),
               title: Transform.translate(
                 offset: const Offset(-20.0, 0.0),
                 child: Text(
@@ -38,6 +53,8 @@ class ContinentListScreen extends StatelessWidget {
               ),
               scrolledUnderElevation: .0,
             ),
+            ModernRoundedSearchField(controller: _controller),
+            _SearchGridView(controller: _controller),
             ListView.builder(
               itemCount: Continent.values.length,
               physics: const NeverScrollableScrollPhysics(),
@@ -105,6 +122,125 @@ class ContinentListScreen extends StatelessWidget {
               },
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _SearchGridView extends StatefulWidget {
+  final TextEditingController _controller;
+
+  const _SearchGridView({
+    required TextEditingController controller,
+  }) : _controller = controller;
+
+  @override
+  State<_SearchGridView> createState() => _SearchGridViewState();
+}
+
+class _SearchGridViewState extends State<_SearchGridView> {
+  List<CountryEnum> _filteredCountries = <CountryEnum>[];
+
+  @override
+  Widget build(BuildContext context) {
+    if (_filteredCountries.isEmpty) {
+      return const SizedBox();
+    }
+    return GridView.builder(
+      physics: const NeverScrollableScrollPhysics(),
+      shrinkWrap: true,
+      gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: 200,
+        crossAxisSpacing: 16.0,
+        mainAxisSpacing: 16.0,
+      ),
+      padding: const EdgeInsets.all(16.0),
+      itemCount: _filteredCountries.length,
+      itemBuilder: (BuildContext context, int index) {
+        final Country country = _filteredCountries[index].toCountry;
+        return TerritoryCard(territory: country);
+      },
+    );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    widget._controller.addListener(() {
+      _filterCountries();
+    });
+  }
+
+  void _filterCountries() {
+    if (widget._controller.text.isEmpty) {
+      setState(() {
+        _filteredCountries = <CountryEnum>[];
+      });
+      return;
+    }
+    final String searchLower = widget._controller.text.toLowerCase();
+    final List<CountryEnum> results = CountryEnum.values.where((CountryEnum country) {
+      final String countryNameLower = country.name.toLowerCase();
+      return countryNameLower.contains(searchLower);
+    }).toList();
+
+    setState(() {
+      _filteredCountries = results;
+    });
+  }
+}
+
+class ModernRoundedSearchField extends StatefulWidget {
+  final TextEditingController _controller;
+
+  const ModernRoundedSearchField({super.key, required TextEditingController controller}) : _controller = controller;
+
+  @override
+  State<ModernRoundedSearchField> createState() => _ModernRoundedSearchFieldState();
+}
+
+class _ModernRoundedSearchFieldState extends State<ModernRoundedSearchField> {
+
+  @override
+  void initState() {
+    super.initState();
+    widget._controller.addListener(() => setState(() {}));
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(30.0), // Rounded corners
+            boxShadow: const <BoxShadow>[
+              BoxShadow(color: Colors.black12, blurRadius: 4.0, spreadRadius: .5, offset: Offset(0, 3))
+            ],
+        ),
+        child: TextField(
+          controller: widget._controller,
+          onTapOutside: (_) {
+            FocusScope.of(context).unfocus();
+          },
+          decoration: InputDecoration(
+            hintText: 'Search a country',
+            prefixIcon: const Icon(Icons.search, color: Colors.grey),
+            suffixIcon: widget._controller.text.isNotEmpty ? IconButton(
+              icon: const Icon(Icons.clear, color: Colors.grey),
+              onPressed: () {
+                widget._controller.clear();
+              },
+            ) : null,
+            border: InputBorder.none,
+            contentPadding: const EdgeInsets.symmetric(vertical: 15.0),
+          ),
+          style: const TextStyle(
+            fontSize: 16.0,
+            color: Colors.black87,
+          ),
         ),
       ),
     );
