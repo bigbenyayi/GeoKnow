@@ -119,8 +119,10 @@ class _QuizScreenState extends State<QuizScreen> {
                           margin: const EdgeInsets.all(16.0),
                           child: OctoImage(
                             image: CachedNetworkImageProvider(quiz.imageUrl),
-                            errorBuilder: (BuildContext context, _, __) =>
-                            const ImageErrorWidget(),
+                            errorBuilder: (BuildContext context, _, __) => const ImageErrorWidget(),
+                            placeholderBuilder: (BuildContext context) {
+                              return AspectRatio(aspectRatio: 16/9, child: Container(color: Colors.grey[300]));
+                            },
                           ),
                         ),
                         const SizedBox(height: 16),

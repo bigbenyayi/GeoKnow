@@ -1,4 +1,4 @@
-package com.ayo.geoknow
+package com.ayo.geo_know
 
 import io.flutter.embedding.android.FlutterActivity
 

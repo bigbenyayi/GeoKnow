@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658870845265:android:b8e26027db20318d24dd70",
+        "mobilesdk_app_id": "1:658870845265:android:fb6e86197ede2d9124dd70",
         "android_client_info": {
-          "package_name": "com.ayo.geoknow"
+          "package_name": "com.ayo.geo_know"
         }
       },
       "oauth_client": [],

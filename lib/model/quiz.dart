@@ -16,8 +16,22 @@ class Quiz {
   }
 
   static Future<List<Quiz>> loadFromAsset(BuildContext context) async {
-    final dynamic jsonString = await DefaultAssetBundle.of(context).loadString('assets/data/bollard_quiz.json');
+    final String jsonString = await DefaultAssetBundle.of(context)
+        .loadString('assets/data/bollard_quiz.json');
+
     final List<dynamic> data = json.decode(jsonString);
-    return data.map((dynamic e) => Quiz.fromJson(e)).toList();
+    final List<Quiz> quizzes = data.map((dynamic e) => Quiz.fromJson(e)).toList();
+
+    final List<Future<void>> futures = <Future<void>>[];
+
+    for (final Quiz quiz in quizzes) {
+      if (quiz.imageUrl.isNotEmpty) {
+        futures.add(precacheImage(NetworkImage(quiz.imageUrl), context));
+      }
+    }
+
+    await Future.wait(futures);
+
+    return quizzes;
   }
 }
