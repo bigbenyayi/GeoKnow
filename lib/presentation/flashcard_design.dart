@@ -4,6 +4,7 @@ import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:geo_know/model/flashcard_content.dart';
 import 'package:geo_know/presentation/flashcard.dart';
 import 'package:geo_know/presentation/image_error_widget.dart';
+import 'package:geo_know/screen/full_screen_image_screen.dart';
 import 'package:octo_image/octo_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -38,6 +39,15 @@ class FlashcardDesign extends StatelessWidget {
                     onTap: () async {
                       if (_flashcard.locationUrl != null) {
                         await launchUrl(Uri.parse(_flashcard.locationUrl!), mode: LaunchMode.externalApplication);
+                      } else {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute<void>(
+                            builder: (BuildContext context) => FullScreenImageScreen(
+                              imageUrl: _flashcard.imageUrl,
+                            ),
+                          ),
+                        );
                       }
                     },
                     child: Stack(
