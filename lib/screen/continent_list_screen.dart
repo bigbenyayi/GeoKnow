@@ -34,13 +34,12 @@ class _ContinentListScreenState extends State<ContinentListScreen> {
         child: Column(
           children: <Widget>[
             AppBar(
-              leading: Builder(
-                builder: (BuildContext context) {
-                  return IconButton(
-                    icon: Icon(Icons.menu_rounded, color: Theme.of(context).primaryColor),
-                    onPressed: () => Scaffold.of(context).openDrawer(),
-                  );
-                }),
+              leading: Builder(builder: (BuildContext context) {
+                return IconButton(
+                  icon: Icon(Icons.menu_rounded, color: Theme.of(context).primaryColor),
+                  onPressed: () => Scaffold.of(context).openDrawer(),
+                );
+              }),
               title: Transform.translate(
                 offset: const Offset(-20.0, 0.0),
                 child: Text(
@@ -195,14 +194,14 @@ class _SearchGridViewState extends State<_SearchGridView> {
 class ModernRoundedSearchField extends StatefulWidget {
   final TextEditingController _controller;
 
-  const ModernRoundedSearchField({super.key, required TextEditingController controller}) : _controller = controller;
+  const ModernRoundedSearchField({super.key, required TextEditingController controller})
+      : _controller = controller;
 
   @override
   State<ModernRoundedSearchField> createState() => _ModernRoundedSearchFieldState();
 }
 
 class _ModernRoundedSearchFieldState extends State<ModernRoundedSearchField> {
-
   @override
   void initState() {
     super.initState();
@@ -217,9 +216,9 @@ class _ModernRoundedSearchFieldState extends State<ModernRoundedSearchField> {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(30.0), // Rounded corners
-            boxShadow: const <BoxShadow>[
-              BoxShadow(color: Colors.black12, blurRadius: 4.0, spreadRadius: .5, offset: Offset(0, 3))
-            ],
+          boxShadow: const <BoxShadow>[
+            BoxShadow(color: Colors.black12, blurRadius: 4.0, spreadRadius: .5, offset: Offset(0, 3))
+          ],
         ),
         child: TextField(
           controller: widget._controller,
@@ -229,12 +228,14 @@ class _ModernRoundedSearchFieldState extends State<ModernRoundedSearchField> {
           decoration: InputDecoration(
             hintText: 'Search a country',
             prefixIcon: const Icon(Icons.search, color: Colors.grey),
-            suffixIcon: widget._controller.text.isNotEmpty ? IconButton(
-              icon: const Icon(Icons.clear, color: Colors.grey),
-              onPressed: () {
-                widget._controller.clear();
-              },
-            ) : null,
+            suffixIcon: widget._controller.text.isNotEmpty
+                ? IconButton(
+                    icon: const Icon(Icons.clear, color: Colors.grey),
+                    onPressed: () {
+                      widget._controller.clear();
+                    },
+                  )
+                : null,
             border: InputBorder.none,
             contentPadding: const EdgeInsets.symmetric(vertical: 15.0),
           ),
@@ -275,72 +276,79 @@ class _Drawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Column(
-              children: <Widget>[
-                DrawerHeader(
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor,
-                  ),
-                  child: const Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: <Widget>[
-                      Text(
-                        'GeoKnow',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w900,
-                          fontSize: 40.0,
-                        ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Column(
+            children: <Widget>[
+              DrawerHeader(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor,
+                ),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Text(
+                      'GeoKnow',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 40.0,
                       ),
-                    ],
-                  ),
-                ),
-                ListTile(
-                  leading: Icon(Icons.emoji_objects, color: Theme.of(context).primaryColor),
-                  title: const Text('Quiz yourself'),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute<void>(
-                        builder: (BuildContext context) {
-                          return const QuizListScreen();
-                        },
-                      ),
-                    );
-                  },
-                ),
-                ListTile(
-                  leading: Icon(Platform.isAndroid ? Icons.apps : Icons.link, color: Theme.of(context).primaryColor),
-                  title: Text(Platform.isAndroid ? 'More apps from me' : 'Check out Ayo'),
-                  onTap: () {
-                    _openAppStore(playStore: _ayoAndroidUrl, appStore: _ayoAppleUrl);
-                  },
-                ),
-                ListTile(
-                  leading: Icon(Icons.star_rate, color: Theme.of(context).primaryColor),
-                  title: const Text('Rate Us'),
-                  onTap: () {
-                    _openAppStore(playStore: _androidUrl, appStore: _appleUrl);
-                  },
-                ),
-              ],
-            ),
-            // Footer section with version info
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(
-                'Version 1.0.6',
-                style: TextStyle(
-                  color: Colors.grey[600],
-                  fontSize: 14,
+                    ),
+                  ],
                 ),
               ),
+              ListTile(
+                leading: Icon(Icons.emoji_objects, color: Theme.of(context).primaryColor),
+                title: const Text('Quiz yourself'),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (BuildContext context) {
+                        return const QuizListScreen();
+                      },
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Platform.isAndroid ? Icons.apps : Icons.link, color: Theme.of(context).primaryColor),
+                title: Text(Platform.isAndroid ? 'More apps from me' : 'Check out Ayo'),
+                onTap: () {
+                  _openAppStore(playStore: _ayoAndroidUrl, appStore: _ayoAppleUrl);
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.star_rate, color: Theme.of(context).primaryColor),
+                title: const Text('Rate Us'),
+                onTap: () {
+                  _openAppStore(playStore: _androidUrl, appStore: _appleUrl);
+                },
+              ),
+            ],
+          ),
+          // Footer section with version info
+          const Spacer(),
+          InkWell(
+            onTap: () {
+              launchUrl(Uri.parse('https://www.buymeacoffee.com/bigbenyayi'), mode: LaunchMode.externalApplication);
+            },
+            child: Image.asset('assets/images/buy_me_a_coffee.png', width: 150),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Version 1.0.6',
+              style: TextStyle(
+                color: Colors.grey[600],
+                fontSize: 14,
+              ),
             ),
-          ],
-        ),
+          ),
+        ],
+      ),
     );
   }
 }
