@@ -1,66 +1,77 @@
-# geo_know
+# GeoKnow
 
-A new Flutter project.
+GeoKnow is a Flutter-based mobile application designed to help players improve their **GeoGuessr** skills through interactive flashcards and quizzes. Whether you are a beginner or a seasoned pro, GeoKnow provides the tools to master geographical locations, flags, outlines, bollards, and more.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+-   **Flashcards**: Use swipable flashcards to study different regions and their unique characteristics.
+-   **Quizzes**: Test your knowledge with various quiz modes, including a dedicated **Bollard Quiz**.
+-   **Comprehensive Database**: Detailed information organized by continents, countries, and territories.
+-   **Visual Learning**: High-quality country outlines, flags, and state-specific details.
+-   **Favorites**: Save difficult cards or regions to review them later for targeted practice.
+-   **Offline Support**: Core data and assets are bundled for efficient performance.
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+|              Home               |                  Country                  |                 Madagascar                  |              Qatar              |                Uruguay                |
+|:-------------------------------:|:-----------------------------------------:|:-------------------------------------------:|:-------------------------------:|:-------------------------------------:|
+| ![Home](assets/readme/home.png) | ![Countries](assets/readme/countries.png) | ![Flashcards](assets/readme/flashcards.png) | ![Quiz](assets/readme/quiz.png) | ![Results](assets/readme/results.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ☕ Support
 
-### Data Scraping:
+If you find this project helpful and want to support its development, you can buy me a coffee!
 
-## Wesbite
+<a href="https://buymeacoffee.com/bigbenyayi">
+  <img src="assets/images/buy_me_a_coffee.png" width="200" />
+</a>
 
-https://cliprun.com/online-beautiful-soup-compiler
+## 🛠 Tech Stack
 
-## Code
+-   **Framework**: [Flutter](https://flutter.dev/)
+-   **State Management**: Flutter State Management (StatefulWidgets / Hooks)
+-   **Backend/Monitoring**: [Firebase](https://firebase.google.com/) (Core, Crashlytics)
+-   **Key Packages**:
+    -   `flutter_card_swiper`: For the interactive flashcard experience.
+    -   `cached_network_image` & `octo_image`: Efficient image loading and placeholders.
+    -   `flutter_svg`: Rendering vector graphics for flags and outlines.
+    -   `shared_preferences`: Local storage for favorites.
+    -   `confetti`: Celebration effects for quiz completions.
 
-from bs4 import BeautifulSoup
+## 🚀 Getting Started
 
-html = '''
-<body>
+### Prerequisites
 
-</body>
-'''
+-   Flutter SDK: `^3.0.5`
+-   Android Studio / VS Code
+-   Firebase project setup (for Crashlytics)
 
-from bs4 import BeautifulSoup
-import json
+### Installation
 
-soup = BeautifulSoup(html, 'html.parser')
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/geo-know.git
+    cd geo-know
+    ```
 
-results = []
-prefix = "https://www.plonkit.net/images/resize/600/80/"
-for a in soup.find_all('a'):
-href = a.get('href')
-if href and not href.startswith("https://"):
-href = None
-img = a.find('img')
-if img:
-img_src = img.get('src')
-if not img_src.startswith("http"):
-img_src = prefix + img_src.lstrip('/images')
-# Find sibling div with style 'flex: 0.5 1 0%;' or 'flex: 0.417 1 0%;'
-sibling_div = None
-for sibling in a.parent.find_all(recursive=False):
-style = sibling.get('style')
-if sibling.name == 'div' and (style == 'flex: 0.5 1 0%;' or style == 'flex: 0.417 1 0%;'):
-sibling_div = sibling
-break
-# Extract all <p> text inside that div
-p_texts = [p.get_text(strip=True) for p in sibling_div.find_all('p')] if sibling_div else []
-results.append({
-'locationUrl': href,
-'imageUrl': img_src,
-'body': " ".join(p_texts)
-})
+2.  **Install dependencies**:
+    ```bash
+    flutter pub get
+    ```
 
-# Print JSON output
-print(json.dumps(results, indent=2))
+3.  **Run the app**:
+    ```bash
+    flutter run
+    ```
+
+## 📂 Project Structure
+
+-   `lib/screen/`: UI screens for quizzes, lists, and favorites.
+-   `lib/model/`: Data models for countries, continents, and quizzes.
+-   `lib/presentation/`: Reusable UI components and widgets.
+-   `lib/values/`: Enums and static data for geographical entities.
+-   `assets/data/`: JSON files containing extensive geographical and quiz data.
+-   `assets/images/`: Assets including flags, outlines, and UI icons.
+
+---
+
+Made with ❤️ for the GeoGuessr community.
