@@ -28,7 +28,7 @@ If you find this project helpful and want to support its development, you can bu
 ## 🛠 Tech Stack
 
 -   **Framework**: [Flutter](https://flutter.dev/)
--   **State Management**: Flutter State Management (StatefulWidgets / Hooks)
+-   **State Management**: None
 -   **Backend/Monitoring**: [Firebase](https://firebase.google.com/) (Core, Crashlytics)
 -   **Key Packages**:
     -   `flutter_card_swiper`: For the interactive flashcard experience.
